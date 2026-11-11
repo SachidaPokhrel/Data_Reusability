@@ -1,0 +1,71 @@
+{
+  "mode": "full",
+  "record_id": "17977529",
+  "samples": "config/isolate_files.tsv",
+  "orthology": {
+    "file": "Pe_orthogroups.tsv",
+    "format": "auto",
+    "group_column": null,
+    "isolate_column": null,
+    "gene_column": null,
+    "id_map": null
+  },
+  "number_of_isolates": 19,
+  "number_of_genes": 0,
+  "upstream_windows_bp": [
+    500,
+    1000
+  ],
+  "random_seed": 2026,
+  "core_population_size": 19,
+  "min_cds_bases": 150,
+  "max_ambiguous_fraction": 0.01,
+  "min_pair_callable_fraction": 0.7,
+  "min_valid_pair_fraction": 0.8,
+  "max_cds_divergence": 0.01,
+  "min_upstream_divergence": 0.05,
+  "min_upstream_identity_for_homology": 0.5,
+  "large_indel_bp": 50,
+  "local_repeat_radius_bp": 10000,
+  "sensitivity_cds": [
+    0.005,
+    0.01,
+    0.02
+  ],
+  "sensitivity_upstream": [
+    0.02,
+    0.05,
+    0.1
+  ],
+  "max_candidate_loci": 5,
+  "threads": 2,
+  "memory_mb": 8000,
+  "runtime_min": 240,
+  "temporary_disk_mb": 16000,
+  "distances": null,
+  "distances_format": "phylip",
+  "repeat_te_classes": [
+    "DNA",
+    "LTR",
+    "LINE",
+    "SINE",
+    "RC",
+    "Helitron"
+  ],
+  "repeat_format": "gff3",
+  "gene_feature": "gene",
+  "alignment_method": "mafft",
+  "test_stub_alignment": false,
+  "paths": {
+    "data": "data",
+    "results": "results",
+    "reports": "reports",
+    "figures": "figures"
+  },
+  "max_conserved_upstream_divergence": 0.01,
+  "graph": {
+    "enabled": false,
+    "file": "data/raw/Pe.full.gfa.gz",
+    "path_mapping": "config/graph_paths.tsv"
+  }
+}

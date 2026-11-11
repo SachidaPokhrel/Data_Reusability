@@ -1,0 +1,13 @@
+{
+  "files": [
+    "figures/pilot/figure4_heatmap_500.png",
+    "figures/pilot/figure4_heatmap_500.pdf",
+    "figures/pilot/figure5_candidate_1_500.png",
+    "figures/pilot/figure5_candidate_1_500.pdf",
+    "figures/pilot/figure4_heatmap_1000.png",
+    "figures/pilot/figure4_heatmap_1000.pdf",
+    "results/pilot/candidates/detailed_candidate_review.tsv"
+  ],
+  "no_candidate_plot_meaning": "No qualifying screen candidates or no valid alignments",
+  "status": "complete"
+}

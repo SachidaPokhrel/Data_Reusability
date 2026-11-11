@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+# A trailing delimiter represents an empty final TSV field.
+*.tsv whitespace=-blank-at-eol

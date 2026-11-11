@@ -1,0 +1,21 @@
+{
+  "zenodo_api": "https://zenodo.org/api/records/17977529",
+  "record_id": "17977529",
+  "doi": "10.5281/zenodo.17977529",
+  "required_files": [
+    "genome_assembly.zip",
+    "gene_annotation.zip",
+    "repeat_annotation.zip",
+    "Pe_orthogroups.tsv",
+    "Pe_orthogroup_presence_absence.tsv",
+    "Pe_orthogroup_protein_identity.tsv"
+  ],
+  "optional_files": [
+    "Pe.full.gfa.gz",
+    "Pe_variant_matrix.phy",
+    "phased_variants.zip"
+  ],
+  "paper": "https://doi.org/10.1371/journal.pbio.3003596",
+  "bioproject": "PRJNA772192",
+  "authors_code": "https://github.com/TeamMGE/Skiadas2025_pangenome_haplotypes"
+}

@@ -1,0 +1,20 @@
+isolate	haplotype	assembly_role	contig_count	total_bp	N50	max_contig_bp	ambiguous_bp	gap_runs	annotated_genes	repeat_features
+Pe1	assembly_unphased	haploid_primary	17	57825316	3671692	8087652	0	0	9916	40048
+Pe2	assembly_unphased	haploid_primary	17	58827214	3605134	8568021	200	2	10256	40627
+Pe3	assembly_unphased	haploid_primary	17	58446713	3748304	8276475	200	2	10379	38908
+Pe4	assembly_unphased	haploid_primary	18	58960085	3757066	8528218	0	0	10252	38674
+Pe5	assembly_unphased	haploid_primary	18	60531643	3861968	8388165	0	0	10322	39970
+Pe6	assembly_unphased	haploid_primary	19	60659995	3769891	8552556	400	4	10302	
+Pe7	assembly_unphased	haploid_primary	22	60003436	3776783	8584878	1200	12	10406	38553
+Pe8	assembly_unphased	haploid_primary	23	62077983	3703353	8527477	400	4	10350	41343
+Pe9	assembly_unphased	haploid_primary	20	60942419	3698441	9044745	700	7	10471	41494
+Pe10	assembly_unphased	haploid_primary	17	57781104	3786773	8327093	700	7	10162	39252
+Pe11	assembly_unphased	haploid_primary	18	59218030	3590834	8793069	0	0	10268	38492
+Pe12	assembly_unphased	haploid_primary	17	58613268	3901684	8198433	200	2	10441	39923
+Pe13	assembly_unphased	haploid_primary	19	58096566	3813933	8052902	800	8	10314	38169
+Pe14	assembly_unphased	haploid_primary	17	58040566	3958445	8474696	0	0	10368	38588
+Pe15	assembly_unphased	haploid_primary	21	60831951	3747587	8502761	400	4	10325	39011
+Pe16	assembly_unphased	haploid_primary	18	60111298	3668258	8325472	0	0	10247	41017
+Pe17	assembly_unphased	haploid_primary	17	58231336	3850538	8516532	200	2	10308	41120
+Pe18	assembly_unphased	haploid_primary	18	60070923	3938577	8752733	900	9	10540	40822
+Pe19	assembly_unphased	haploid_primary	20	60065263	3887053	8495664	300	3	10307	39679

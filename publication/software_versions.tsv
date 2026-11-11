@@ -1,0 +1,8 @@
+software	version
+python	3.12.8
+platform	Linux-5.14.0-570.58.1.el9_6.x86_64-x86_64-with-glibc2.34
+mafft	v7.526 (2024/Apr/26)
+R	Rscript (R) version 4.4.2 (2024-10-31)
+snakemake	8.30.0
+minimap2	UNAVAILABLE
+git	git version 2.47.3

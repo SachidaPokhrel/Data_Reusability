@@ -1,0 +1,14 @@
+name: pe-analysis
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.12.8
+  - biopython=1.85
+  - pandas=2.2.3
+  - numpy=2.2.3
+  - scipy=1.15.2
+  - matplotlib=3.10.1
+  - pyyaml=6.0.2
+  - mafft=7.526
+  - bedtools=2.31.1
+  - samtools=1.21
+  - minimap2=2.28

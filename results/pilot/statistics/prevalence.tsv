@@ -1,0 +1,3 @@
+window	sampled_loci	unresolved	coding_conserved	coding_conserved_unresolved	high_quality_coding_conserved	candidate_screen_count	conditional_candidate_fraction	all_coding_conserved_lower_bound	all_coding_conserved_upper_bound	ci_lower	ci_upper	bootstrap_status
+500	100	65	90	58	32	1	0.03125	0.011111111111111112	0.6555555555555556	0	0.09762195121951187	chromosome_block_percentile_conditional_on_isolates
+1000	100	81	90	74	16	0	0	0	0.8222222222222222	0	0	chromosome_block_percentile_conditional_on_isolates

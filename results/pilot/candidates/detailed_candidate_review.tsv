@@ -1,0 +1,2 @@
+orthogroup	window	rank	evidence	synteny	strand	assembly_continuity	gene_model	TE_insertion	graph_support	manual_review
+Chr5_38	500	1	moderate	conserved_immediate_core_neighbors	transcription_oriented	passed_window_QC	passed_CDS_QC	not_established	not_run_by_main_workflow	pending

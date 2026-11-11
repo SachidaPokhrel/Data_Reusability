@@ -1,0 +1,6 @@
+stage	remaining	removed
+membership_groups	8200	0
+single_copy_all_manifest	8200	0
+CDS_QC_all_manifest	6398	1802
+CDS_synteny_selected_isolates	2425	3973
+random_sample	100	2325

@@ -1,0 +1,17 @@
+{
+  "scope": "Completed six-isolate, 100-locus biological pilot",
+  "core_population": 19,
+  "full_run_gate": "not_passed",
+  "full_run_executed": false,
+  "candidate_screen": {
+    "500_bp": 1,
+    "1000_bp": 0
+  },
+  "candidate_validation": {
+    "orthogroup": "Chr5_38",
+    "result": "original windows compared nonoverlapping alignment blocks"
+  },
+  "historical_run_audit": "A complete end-to-end audit of the manually staged biological run was not verified.",
+  "report_timestamp_utc": "2026-11-10T22:26:03.473520+00:00",
+  "input_config_sha256": "827baad069aadfabb221b07ca0300a28cc8cf77632fb46ab7089b27cfd1d371a"
+}

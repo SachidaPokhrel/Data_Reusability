@@ -1,0 +1,8 @@
+source	record_id	file_name	file_size	checksum	download_url	validation_status
+Zenodo	17977529	Pe_orthogroup_presence_absence.tsv	5148942	md5:f54396a66992effd8f1f43a760e3839a	https://zenodo.org/api/records/17977529/files/Pe_orthogroup_presence_absence.tsv/content	verified
+Zenodo	17977529	Pe_orthogroup_protein_identity.tsv	4964952	md5:90e799b95e5e780774180eb7947d4156	https://zenodo.org/api/records/17977529/files/Pe_orthogroup_protein_identity.tsv/content	verified
+Zenodo	17977529	Pe_orthogroups.tsv	8636268	md5:7d9cbdeb43e9030f41a11ad664e9807d	https://zenodo.org/api/records/17977529/files/Pe_orthogroups.tsv/content	verified
+Zenodo	17977529	Pe_variant_matrix.phy	9795134	md5:2adf649e23a0a6d431b4895286192a21	https://zenodo.org/api/records/17977529/files/Pe_variant_matrix.phy/content	verified
+Zenodo	17977529	gene_annotation.zip	28876154	md5:ad7eef8d3dfc69c5176716a076921b42	https://zenodo.org/api/records/17977529/files/gene_annotation.zip/content	verified
+Zenodo	17977529	genome_assembly.zip	306663888	md5:7af1995571edabb8dc32f71fc0293eb7	https://zenodo.org/api/records/17977529/files/genome_assembly.zip/content	verified
+Zenodo	17977529	repeat_annotation.zip	19536583	md5:791bf32eba18339b838ff96be72ba67e	https://zenodo.org/api/records/17977529/files/repeat_annotation.zip/content	verified

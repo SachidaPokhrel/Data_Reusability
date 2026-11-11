@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite the original study and dataset when using this workflow."
+title: "Conserved genes, variable neighborhoods in Peronospora effusa"
+type: software
+authors:
+  - name: Project contributors
+license: MIT
+references:
+  - type: article
+    title: "Pangenome graph analysis reveals evolution of resistance breaking in spinach downy mildew"
+    authors:
+      - family-names: Skiadas
+        given-names: Petros
+      - family-names: Mendel
+        given-names: Melanie N.
+      - family-names: Elberse
+        given-names: Joyce
+      - family-names: Van den Ackerveken
+        given-names: Guido
+      - family-names: de Jonge
+        given-names: Ronnie
+      - family-names: Seidl
+        given-names: Michael F.
+    doi: 10.1371/journal.pbio.3003596
+    year: 2026
+  - type: data
+    title: "Pangenome graph analysis reveals evolution of resistance breaking in spinach downy mildew"
+    doi: 10.5281/zenodo.17977529

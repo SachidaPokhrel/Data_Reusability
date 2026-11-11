@@ -1,0 +1,1201 @@
+orthogroup	isolate	window	extractable	actual_length	flags
+Chr10_1056	Pe2	500	1	500	
+Chr10_1056	Pe2	1000	1	1000	
+Chr10_139	Pe2	500	0	460	neighbor_overlap;short_upstream
+Chr10_139	Pe2	1000	0	460	neighbor_overlap;short_upstream
+Chr10_190	Pe2	500	1	500	
+Chr10_190	Pe2	1000	1	1000	
+Chr10_393	Pe2	500	0	216	neighbor_overlap;short_upstream
+Chr10_393	Pe2	1000	0	216	neighbor_overlap;short_upstream
+Chr10_396	Pe2	500	1	500	
+Chr10_396	Pe2	1000	1	1000	
+Chr10_463	Pe2	500	1	500	
+Chr10_463	Pe2	1000	0	808	neighbor_overlap;short_upstream
+Chr10_635	Pe2	500	0	208	neighbor_overlap;short_upstream
+Chr10_635	Pe2	1000	0	208	neighbor_overlap;short_upstream
+Chr11_147	Pe2	500	0	445	neighbor_overlap;short_upstream
+Chr11_147	Pe2	1000	0	445	neighbor_overlap;short_upstream
+Chr11_214	Pe2	500	0	82	neighbor_overlap;short_upstream
+Chr11_214	Pe2	1000	0	82	neighbor_overlap;short_upstream
+Chr11_310	Pe2	500	1	500	
+Chr11_310	Pe2	1000	1	1000	
+Chr11_317	Pe2	500	1	500	
+Chr11_317	Pe2	1000	1	1000	
+Chr11_392	Pe2	500	0	118	neighbor_overlap;short_upstream
+Chr11_392	Pe2	1000	0	118	neighbor_overlap;short_upstream
+Chr11_459	Pe2	500	0	387	neighbor_overlap;short_upstream
+Chr11_459	Pe2	1000	0	387	neighbor_overlap;short_upstream
+Chr12_117	Pe2	500	0	151	neighbor_overlap;short_upstream
+Chr12_117	Pe2	1000	0	151	neighbor_overlap;short_upstream
+Chr12_172	Pe2	500	0	175	neighbor_overlap;short_upstream
+Chr12_172	Pe2	1000	0	175	neighbor_overlap;short_upstream
+Chr12_206	Pe2	500	0	385	neighbor_overlap;short_upstream
+Chr12_206	Pe2	1000	0	385	neighbor_overlap;short_upstream
+Chr12_259	Pe2	500	0	255	neighbor_overlap;short_upstream
+Chr12_259	Pe2	1000	0	255	neighbor_overlap;short_upstream
+Chr12_49	Pe2	500	1	500	
+Chr12_49	Pe2	1000	0	793	neighbor_overlap;short_upstream
+Chr13_42	Pe2	500	1	500	
+Chr13_42	Pe2	1000	1	1000	
+Chr13_62	Pe2	500	1	500	
+Chr13_62	Pe2	1000	0	977	neighbor_overlap;short_upstream
+Chr14_132	Pe2	500	1	500	
+Chr14_132	Pe2	1000	1	1000	
+Chr17_113	Pe2	500	1	500	
+Chr17_113	Pe2	1000	1	1000	
+Chr17_16	Pe2	500	1	500	
+Chr17_16	Pe2	1000	1	1000	
+Chr17_215	Pe2	500	0	107	neighbor_overlap;short_upstream
+Chr17_215	Pe2	1000	0	107	neighbor_overlap;short_upstream
+Chr17_347	Pe2	500	0	448	neighbor_overlap;short_upstream
+Chr17_347	Pe2	1000	0	448	neighbor_overlap;short_upstream
+Chr17_358	Pe2	500	0	317	neighbor_overlap;short_upstream
+Chr17_358	Pe2	1000	0	317	neighbor_overlap;short_upstream
+Chr17_429	Pe2	500	0	28	neighbor_overlap;short_upstream
+Chr17_429	Pe2	1000	0	28	neighbor_overlap;short_upstream
+Chr1_1024	Pe2	500	0	222	neighbor_overlap;short_upstream
+Chr1_1024	Pe2	1000	0	222	neighbor_overlap;short_upstream
+Chr1_1239	Pe2	500	1	500	
+Chr1_1239	Pe2	1000	1	1000	
+Chr1_127	Pe2	500	1	500	
+Chr1_127	Pe2	1000	0	899	neighbor_overlap;short_upstream
+Chr1_254	Pe2	500	0	495	neighbor_overlap;short_upstream
+Chr1_254	Pe2	1000	0	495	neighbor_overlap;short_upstream
+Chr1_281	Pe2	500	1	500	
+Chr1_281	Pe2	1000	1	1000	
+Chr1_414	Pe2	500	0	361	neighbor_overlap;short_upstream
+Chr1_414	Pe2	1000	0	361	neighbor_overlap;short_upstream
+Chr1_593	Pe2	500	1	500	
+Chr1_593	Pe2	1000	1	1000	
+Chr1_599	Pe2	500	1	500	
+Chr1_599	Pe2	1000	0	505	neighbor_overlap;short_upstream
+Chr1_642	Pe2	500	1	500	
+Chr1_642	Pe2	1000	0	686	neighbor_overlap;short_upstream
+Chr1_66	Pe2	500	0	59	neighbor_overlap;short_upstream
+Chr1_66	Pe2	1000	0	59	neighbor_overlap;short_upstream
+Chr1_848	Pe2	500	0	60	neighbor_overlap;short_upstream
+Chr1_848	Pe2	1000	0	60	neighbor_overlap;short_upstream
+Chr1_864	Pe2	500	1	500	
+Chr1_864	Pe2	1000	0	908	neighbor_overlap;short_upstream
+Chr1_972	Pe2	500	0	222	neighbor_overlap;short_upstream
+Chr1_972	Pe2	1000	0	222	neighbor_overlap;short_upstream
+Chr2_159	Pe2	500	1	500	
+Chr2_159	Pe2	1000	1	1000	
+Chr2_339	Pe2	500	0	251	neighbor_overlap;short_upstream
+Chr2_339	Pe2	1000	0	251	neighbor_overlap;short_upstream
+Chr2_409	Pe2	500	0	140	neighbor_overlap;short_upstream
+Chr2_409	Pe2	1000	0	140	neighbor_overlap;short_upstream
+Chr2_525	Pe2	500	0	126	neighbor_overlap;short_upstream
+Chr2_525	Pe2	1000	0	126	neighbor_overlap;short_upstream
+Chr3_123	Pe2	500	1	500	
+Chr3_123	Pe2	1000	0	571	neighbor_overlap;short_upstream
+Chr3_176	Pe2	500	0	328	neighbor_overlap;short_upstream
+Chr3_176	Pe2	1000	0	328	neighbor_overlap;short_upstream
+Chr3_234	Pe2	500	1	500	
+Chr3_234	Pe2	1000	0	987	neighbor_overlap;short_upstream
+Chr3_295	Pe2	500	0	284	neighbor_overlap;short_upstream
+Chr3_295	Pe2	1000	0	284	neighbor_overlap;short_upstream
+Chr3_477	Pe2	500	0	435	neighbor_overlap;short_upstream
+Chr3_477	Pe2	1000	0	435	neighbor_overlap;short_upstream
+Chr3_483	Pe2	500	0	118	neighbor_overlap;short_upstream
+Chr3_483	Pe2	1000	0	118	neighbor_overlap;short_upstream
+Chr3_489	Pe2	500	1	500	
+Chr3_489	Pe2	1000	1	1000	
+Chr3_523	Pe2	500	0	263	neighbor_overlap;short_upstream
+Chr3_523	Pe2	1000	0	263	neighbor_overlap;short_upstream
+Chr4_236	Pe2	500	1	500	
+Chr4_236	Pe2	1000	1	1000	
+Chr4_238	Pe2	500	1	500	
+Chr4_238	Pe2	1000	1	1000	
+Chr4_255	Pe2	500	0	258	neighbor_overlap;short_upstream
+Chr4_255	Pe2	1000	0	258	neighbor_overlap;short_upstream
+Chr4_280	Pe2	500	1	500	
+Chr4_280	Pe2	1000	1	1000	
+Chr4_314	Pe2	500	0	374	neighbor_overlap;short_upstream
+Chr4_314	Pe2	1000	0	374	neighbor_overlap;short_upstream
+Chr4_348	Pe2	500	1	500	
+Chr4_348	Pe2	1000	1	1000	
+Chr4_430	Pe2	500	0	122	neighbor_overlap;short_upstream
+Chr4_430	Pe2	1000	0	122	neighbor_overlap;short_upstream
+Chr4_55	Pe2	500	0	271	neighbor_overlap;short_upstream
+Chr4_55	Pe2	1000	0	271	neighbor_overlap;short_upstream
+Chr4_646	Pe2	500	1	500	
+Chr4_646	Pe2	1000	1	1000	
+Chr4_655	Pe2	500	0	395	neighbor_overlap;short_upstream
+Chr4_655	Pe2	1000	0	395	neighbor_overlap;short_upstream
+Chr4_674	Pe2	500	0	181	neighbor_overlap;short_upstream
+Chr4_674	Pe2	1000	0	181	neighbor_overlap;short_upstream
+Chr5_123	Pe2	500	1	500	
+Chr5_123	Pe2	1000	1	1000	
+Chr5_174	Pe2	500	0	20	neighbor_overlap;short_upstream
+Chr5_174	Pe2	1000	0	20	neighbor_overlap;short_upstream
+Chr5_195	Pe2	500	1	500	
+Chr5_195	Pe2	1000	1	1000	
+Chr5_199	Pe2	500	1	500	
+Chr5_199	Pe2	1000	1	1000	
+Chr5_38	Pe2	500	1	500	
+Chr5_38	Pe2	1000	0	836	neighbor_overlap;short_upstream
+Chr5_380	Pe2	500	1	500	
+Chr5_380	Pe2	1000	1	1000	
+Chr5_86	Pe2	500	0	237	neighbor_overlap;short_upstream
+Chr5_86	Pe2	1000	0	237	neighbor_overlap;short_upstream
+Chr6_160	Pe2	500	0	17	neighbor_overlap;short_upstream
+Chr6_160	Pe2	1000	0	17	neighbor_overlap;short_upstream
+Chr6_230	Pe2	500	0	368	neighbor_overlap;short_upstream
+Chr6_230	Pe2	1000	0	368	neighbor_overlap;short_upstream
+Chr6_236	Pe2	500	1	500	
+Chr6_236	Pe2	1000	0	859	neighbor_overlap;short_upstream
+Chr6_241	Pe2	500	1	500	
+Chr6_241	Pe2	1000	1	1000	
+Chr6_242	Pe2	500	1	500	
+Chr6_242	Pe2	1000	0	687	neighbor_overlap;short_upstream
+Chr6_305	Pe2	500	1	500	
+Chr6_305	Pe2	1000	1	1000	
+Chr6_346	Pe2	500	0	142	neighbor_overlap;short_upstream
+Chr6_346	Pe2	1000	0	142	neighbor_overlap;short_upstream
+Chr6_354	Pe2	500	0	231	neighbor_overlap;short_upstream
+Chr6_354	Pe2	1000	0	231	neighbor_overlap;short_upstream
+Chr6_382	Pe2	500	0	142	neighbor_overlap;short_upstream
+Chr6_382	Pe2	1000	0	142	neighbor_overlap;short_upstream
+Chr6_451	Pe2	500	1	500	
+Chr6_451	Pe2	1000	1	1000	
+Chr6_47	Pe2	500	0	416	neighbor_overlap;short_upstream
+Chr6_47	Pe2	1000	0	416	neighbor_overlap;short_upstream
+Chr6_473	Pe2	500	0	187	neighbor_overlap;short_upstream
+Chr6_473	Pe2	1000	0	187	neighbor_overlap;short_upstream
+Chr6_525	Pe2	500	0	430	neighbor_overlap;short_upstream
+Chr6_525	Pe2	1000	0	430	neighbor_overlap;short_upstream
+Chr6_594	Pe2	500	0	250	neighbor_overlap;short_upstream
+Chr6_594	Pe2	1000	0	250	neighbor_overlap;short_upstream
+Chr6_601	Pe2	500	1	500	
+Chr6_601	Pe2	1000	1	1000	
+Chr6_620	Pe2	500	1	500	
+Chr6_620	Pe2	1000	1	1000	
+Chr7_194	Pe2	500	1	500	
+Chr7_194	Pe2	1000	1	1000	
+Chr7_53	Pe2	500	1	500	
+Chr7_53	Pe2	1000	1	1000	
+Chr7_84	Pe2	500	1	500	
+Chr7_84	Pe2	1000	0	721	neighbor_overlap;short_upstream
+Chr7_86	Pe2	500	1	500	
+Chr7_86	Pe2	1000	0	795	neighbor_overlap;short_upstream
+Chr8_138	Pe2	500	1	500	
+Chr8_138	Pe2	1000	1	1000	
+Chr8_160	Pe2	500	0	122	neighbor_overlap;short_upstream
+Chr8_160	Pe2	1000	0	122	neighbor_overlap;short_upstream
+Chr8_168	Pe2	500	0	428	neighbor_overlap;short_upstream
+Chr8_168	Pe2	1000	0	428	neighbor_overlap;short_upstream
+Chr8_188	Pe2	500	1	500	
+Chr8_188	Pe2	1000	1	1000	
+Chr8_261	Pe2	500	0	482	neighbor_overlap;short_upstream
+Chr8_261	Pe2	1000	0	482	neighbor_overlap;short_upstream
+Chr8_75	Pe2	500	0	166	neighbor_overlap;short_upstream
+Chr8_75	Pe2	1000	0	166	neighbor_overlap;short_upstream
+Chr9_127	Pe2	500	0	214	neighbor_overlap;short_upstream
+Chr9_127	Pe2	1000	0	214	neighbor_overlap;short_upstream
+Chr9_141	Pe2	500	0	164	neighbor_overlap;short_upstream
+Chr9_141	Pe2	1000	0	164	neighbor_overlap;short_upstream
+Chr9_252	Pe2	500	0	6	neighbor_overlap;short_upstream
+Chr9_252	Pe2	1000	0	6	neighbor_overlap;short_upstream
+Chr9_264	Pe2	500	1	500	
+Chr9_264	Pe2	1000	0	806	neighbor_overlap;short_upstream
+Chr10_1056	Pe5	500	1	500	
+Chr10_1056	Pe5	1000	1	1000	
+Chr10_139	Pe5	500	0	458	neighbor_overlap;short_upstream
+Chr10_139	Pe5	1000	0	458	neighbor_overlap;short_upstream
+Chr10_190	Pe5	500	1	500	
+Chr10_190	Pe5	1000	1	1000	
+Chr10_393	Pe5	500	0	216	neighbor_overlap;short_upstream
+Chr10_393	Pe5	1000	0	216	neighbor_overlap;short_upstream
+Chr10_396	Pe5	500	1	500	
+Chr10_396	Pe5	1000	1	1000	
+Chr10_463	Pe5	500	1	500	
+Chr10_463	Pe5	1000	0	808	neighbor_overlap;short_upstream
+Chr10_635	Pe5	500	0	45	neighbor_overlap;short_upstream
+Chr10_635	Pe5	1000	0	45	neighbor_overlap;short_upstream
+Chr11_147	Pe5	500	0	445	neighbor_overlap;short_upstream
+Chr11_147	Pe5	1000	0	445	neighbor_overlap;short_upstream
+Chr11_214	Pe5	500	0	82	neighbor_overlap;short_upstream
+Chr11_214	Pe5	1000	0	82	neighbor_overlap;short_upstream
+Chr11_310	Pe5	500	1	500	
+Chr11_310	Pe5	1000	1	1000	
+Chr11_317	Pe5	500	1	500	
+Chr11_317	Pe5	1000	1	1000	
+Chr11_392	Pe5	500	0	103	neighbor_overlap;short_upstream
+Chr11_392	Pe5	1000	0	103	neighbor_overlap;short_upstream
+Chr11_459	Pe5	500	0	387	neighbor_overlap;short_upstream
+Chr11_459	Pe5	1000	0	387	neighbor_overlap;short_upstream
+Chr12_117	Pe5	500	0	151	neighbor_overlap;short_upstream
+Chr12_117	Pe5	1000	0	151	neighbor_overlap;short_upstream
+Chr12_172	Pe5	500	0	175	neighbor_overlap;short_upstream
+Chr12_172	Pe5	1000	0	175	neighbor_overlap;short_upstream
+Chr12_206	Pe5	500	0	385	neighbor_overlap;short_upstream
+Chr12_206	Pe5	1000	0	385	neighbor_overlap;short_upstream
+Chr12_259	Pe5	500	0	255	neighbor_overlap;short_upstream
+Chr12_259	Pe5	1000	0	255	neighbor_overlap;short_upstream
+Chr12_49	Pe5	500	1	500	
+Chr12_49	Pe5	1000	0	794	neighbor_overlap;short_upstream
+Chr13_42	Pe5	500	1	500	
+Chr13_42	Pe5	1000	1	1000	
+Chr13_62	Pe5	500	1	500	
+Chr13_62	Pe5	1000	0	977	neighbor_overlap;short_upstream
+Chr14_132	Pe5	500	1	500	
+Chr14_132	Pe5	1000	1	1000	
+Chr17_113	Pe5	500	1	500	
+Chr17_113	Pe5	1000	1	1000	
+Chr17_16	Pe5	500	1	500	
+Chr17_16	Pe5	1000	1	1000	
+Chr17_215	Pe5	500	0	103	neighbor_overlap;short_upstream
+Chr17_215	Pe5	1000	0	103	neighbor_overlap;short_upstream
+Chr17_347	Pe5	500	0	417	neighbor_overlap;short_upstream
+Chr17_347	Pe5	1000	0	417	neighbor_overlap;short_upstream
+Chr17_358	Pe5	500	0	318	neighbor_overlap;short_upstream
+Chr17_358	Pe5	1000	0	318	neighbor_overlap;short_upstream
+Chr17_429	Pe5	500	0	28	neighbor_overlap;short_upstream
+Chr17_429	Pe5	1000	0	28	neighbor_overlap;short_upstream
+Chr1_1024	Pe5	500	0	222	neighbor_overlap;short_upstream
+Chr1_1024	Pe5	1000	0	222	neighbor_overlap;short_upstream
+Chr1_1239	Pe5	500	1	500	
+Chr1_1239	Pe5	1000	1	1000	
+Chr1_127	Pe5	500	1	500	
+Chr1_127	Pe5	1000	0	899	neighbor_overlap;short_upstream
+Chr1_254	Pe5	500	0	498	neighbor_overlap;short_upstream
+Chr1_254	Pe5	1000	0	498	neighbor_overlap;short_upstream
+Chr1_281	Pe5	500	1	500	
+Chr1_281	Pe5	1000	1	1000	
+Chr1_414	Pe5	500	0	361	neighbor_overlap;short_upstream
+Chr1_414	Pe5	1000	0	361	neighbor_overlap;short_upstream
+Chr1_593	Pe5	500	1	500	
+Chr1_593	Pe5	1000	1	1000	
+Chr1_599	Pe5	500	1	500	
+Chr1_599	Pe5	1000	0	505	neighbor_overlap;short_upstream
+Chr1_642	Pe5	500	1	500	
+Chr1_642	Pe5	1000	0	685	neighbor_overlap;short_upstream
+Chr1_66	Pe5	500	0	59	neighbor_overlap;short_upstream
+Chr1_66	Pe5	1000	0	59	neighbor_overlap;short_upstream
+Chr1_848	Pe5	500	0	60	neighbor_overlap;short_upstream
+Chr1_848	Pe5	1000	0	60	neighbor_overlap;short_upstream
+Chr1_864	Pe5	500	1	500	
+Chr1_864	Pe5	1000	0	906	neighbor_overlap;short_upstream
+Chr1_972	Pe5	500	0	222	neighbor_overlap;short_upstream
+Chr1_972	Pe5	1000	0	222	neighbor_overlap;short_upstream
+Chr2_159	Pe5	500	1	500	
+Chr2_159	Pe5	1000	1	1000	
+Chr2_339	Pe5	500	0	251	neighbor_overlap;short_upstream
+Chr2_339	Pe5	1000	0	251	neighbor_overlap;short_upstream
+Chr2_409	Pe5	500	0	140	neighbor_overlap;short_upstream
+Chr2_409	Pe5	1000	0	140	neighbor_overlap;short_upstream
+Chr2_525	Pe5	500	0	126	neighbor_overlap;short_upstream
+Chr2_525	Pe5	1000	0	126	neighbor_overlap;short_upstream
+Chr3_123	Pe5	500	1	500	
+Chr3_123	Pe5	1000	0	571	neighbor_overlap;short_upstream
+Chr3_176	Pe5	500	0	328	neighbor_overlap;short_upstream
+Chr3_176	Pe5	1000	0	328	neighbor_overlap;short_upstream
+Chr3_234	Pe5	500	1	500	
+Chr3_234	Pe5	1000	0	987	neighbor_overlap;short_upstream
+Chr3_295	Pe5	500	0	284	neighbor_overlap;short_upstream
+Chr3_295	Pe5	1000	0	284	neighbor_overlap;short_upstream
+Chr3_477	Pe5	500	0	429	neighbor_overlap;short_upstream
+Chr3_477	Pe5	1000	0	429	neighbor_overlap;short_upstream
+Chr3_483	Pe5	500	0	118	neighbor_overlap;short_upstream
+Chr3_483	Pe5	1000	0	118	neighbor_overlap;short_upstream
+Chr3_489	Pe5	500	1	500	
+Chr3_489	Pe5	1000	1	1000	
+Chr3_523	Pe5	500	0	263	neighbor_overlap;short_upstream
+Chr3_523	Pe5	1000	0	263	neighbor_overlap;short_upstream
+Chr4_236	Pe5	500	1	500	
+Chr4_236	Pe5	1000	1	1000	
+Chr4_238	Pe5	500	1	500	
+Chr4_238	Pe5	1000	1	1000	
+Chr4_255	Pe5	500	0	258	neighbor_overlap;short_upstream
+Chr4_255	Pe5	1000	0	258	neighbor_overlap;short_upstream
+Chr4_280	Pe5	500	1	500	
+Chr4_280	Pe5	1000	1	1000	
+Chr4_314	Pe5	500	0	374	neighbor_overlap;short_upstream
+Chr4_314	Pe5	1000	0	374	neighbor_overlap;short_upstream
+Chr4_348	Pe5	500	1	500	
+Chr4_348	Pe5	1000	1	1000	
+Chr4_430	Pe5	500	0	123	neighbor_overlap;short_upstream
+Chr4_430	Pe5	1000	0	123	neighbor_overlap;short_upstream
+Chr4_55	Pe5	500	0	247	neighbor_overlap;short_upstream
+Chr4_55	Pe5	1000	0	247	neighbor_overlap;short_upstream
+Chr4_646	Pe5	500	1	500	
+Chr4_646	Pe5	1000	1	1000	
+Chr4_655	Pe5	500	0	395	neighbor_overlap;short_upstream
+Chr4_655	Pe5	1000	0	395	neighbor_overlap;short_upstream
+Chr4_674	Pe5	500	0	188	neighbor_overlap;short_upstream
+Chr4_674	Pe5	1000	0	188	neighbor_overlap;short_upstream
+Chr5_123	Pe5	500	1	500	
+Chr5_123	Pe5	1000	1	1000	
+Chr5_174	Pe5	500	0	20	neighbor_overlap;short_upstream
+Chr5_174	Pe5	1000	0	20	neighbor_overlap;short_upstream
+Chr5_195	Pe5	500	1	500	
+Chr5_195	Pe5	1000	1	1000	
+Chr5_199	Pe5	500	1	500	
+Chr5_199	Pe5	1000	1	1000	
+Chr5_38	Pe5	500	1	500	
+Chr5_38	Pe5	1000	1	1000	
+Chr5_380	Pe5	500	1	500	
+Chr5_380	Pe5	1000	1	1000	
+Chr5_86	Pe5	500	0	237	neighbor_overlap;short_upstream
+Chr5_86	Pe5	1000	0	237	neighbor_overlap;short_upstream
+Chr6_160	Pe5	500	0	17	neighbor_overlap;short_upstream
+Chr6_160	Pe5	1000	0	17	neighbor_overlap;short_upstream
+Chr6_230	Pe5	500	0	368	neighbor_overlap;short_upstream
+Chr6_230	Pe5	1000	0	368	neighbor_overlap;short_upstream
+Chr6_236	Pe5	500	1	500	
+Chr6_236	Pe5	1000	0	859	neighbor_overlap;short_upstream
+Chr6_241	Pe5	500	1	500	
+Chr6_241	Pe5	1000	1	1000	
+Chr6_242	Pe5	500	1	500	
+Chr6_242	Pe5	1000	0	687	neighbor_overlap;short_upstream
+Chr6_305	Pe5	500	1	500	
+Chr6_305	Pe5	1000	1	1000	
+Chr6_346	Pe5	500	0	142	neighbor_overlap;short_upstream
+Chr6_346	Pe5	1000	0	142	neighbor_overlap;short_upstream
+Chr6_354	Pe5	500	0	231	neighbor_overlap;short_upstream
+Chr6_354	Pe5	1000	0	231	neighbor_overlap;short_upstream
+Chr6_382	Pe5	500	0	142	neighbor_overlap;short_upstream
+Chr6_382	Pe5	1000	0	142	neighbor_overlap;short_upstream
+Chr6_451	Pe5	500	1	500	
+Chr6_451	Pe5	1000	1	1000	
+Chr6_47	Pe5	500	0	388	neighbor_overlap;short_upstream
+Chr6_47	Pe5	1000	0	388	neighbor_overlap;short_upstream
+Chr6_473	Pe5	500	0	187	neighbor_overlap;short_upstream
+Chr6_473	Pe5	1000	0	187	neighbor_overlap;short_upstream
+Chr6_525	Pe5	500	0	430	neighbor_overlap;short_upstream
+Chr6_525	Pe5	1000	0	430	neighbor_overlap;short_upstream
+Chr6_594	Pe5	500	0	321	neighbor_overlap;short_upstream
+Chr6_594	Pe5	1000	0	321	neighbor_overlap;short_upstream
+Chr6_601	Pe5	500	1	500	
+Chr6_601	Pe5	1000	1	1000	
+Chr6_620	Pe5	500	1	500	
+Chr6_620	Pe5	1000	1	1000	
+Chr7_194	Pe5	500	1	500	
+Chr7_194	Pe5	1000	1	1000	
+Chr7_53	Pe5	500	1	500	
+Chr7_53	Pe5	1000	1	1000	
+Chr7_84	Pe5	500	1	500	
+Chr7_84	Pe5	1000	0	721	neighbor_overlap;short_upstream
+Chr7_86	Pe5	500	1	500	
+Chr7_86	Pe5	1000	0	795	neighbor_overlap;short_upstream
+Chr8_138	Pe5	500	1	500	
+Chr8_138	Pe5	1000	1	1000	
+Chr8_160	Pe5	500	0	147	neighbor_overlap;short_upstream
+Chr8_160	Pe5	1000	0	147	neighbor_overlap;short_upstream
+Chr8_168	Pe5	500	0	428	neighbor_overlap;short_upstream
+Chr8_168	Pe5	1000	0	428	neighbor_overlap;short_upstream
+Chr8_188	Pe5	500	1	500	
+Chr8_188	Pe5	1000	1	1000	
+Chr8_261	Pe5	500	0	482	neighbor_overlap;short_upstream
+Chr8_261	Pe5	1000	0	482	neighbor_overlap;short_upstream
+Chr8_75	Pe5	500	0	166	neighbor_overlap;short_upstream
+Chr8_75	Pe5	1000	0	166	neighbor_overlap;short_upstream
+Chr9_127	Pe5	500	0	214	neighbor_overlap;short_upstream
+Chr9_127	Pe5	1000	0	214	neighbor_overlap;short_upstream
+Chr9_141	Pe5	500	0	164	neighbor_overlap;short_upstream
+Chr9_141	Pe5	1000	0	164	neighbor_overlap;short_upstream
+Chr9_252	Pe5	500	0	6	neighbor_overlap;short_upstream
+Chr9_252	Pe5	1000	0	6	neighbor_overlap;short_upstream
+Chr9_264	Pe5	500	1	500	
+Chr9_264	Pe5	1000	0	795	neighbor_overlap;short_upstream
+Chr10_1056	Pe14	500	1	500	
+Chr10_1056	Pe14	1000	1	1000	
+Chr10_139	Pe14	500	0	223	neighbor_overlap;short_upstream
+Chr10_139	Pe14	1000	0	223	neighbor_overlap;short_upstream
+Chr10_190	Pe14	500	1	500	
+Chr10_190	Pe14	1000	0	808	neighbor_overlap;short_upstream
+Chr10_393	Pe14	500	0	216	neighbor_overlap;short_upstream
+Chr10_393	Pe14	1000	0	216	neighbor_overlap;short_upstream
+Chr10_396	Pe14	500	1	500	
+Chr10_396	Pe14	1000	1	1000	
+Chr10_463	Pe14	500	1	500	
+Chr10_463	Pe14	1000	0	808	neighbor_overlap;short_upstream
+Chr10_635	Pe14	500	0	48	neighbor_overlap;short_upstream
+Chr10_635	Pe14	1000	0	48	neighbor_overlap;short_upstream
+Chr11_147	Pe14	500	0	445	neighbor_overlap;short_upstream
+Chr11_147	Pe14	1000	0	445	neighbor_overlap;short_upstream
+Chr11_214	Pe14	500	0	82	neighbor_overlap;short_upstream
+Chr11_214	Pe14	1000	0	82	neighbor_overlap;short_upstream
+Chr11_310	Pe14	500	1	500	
+Chr11_310	Pe14	1000	1	1000	
+Chr11_317	Pe14	500	1	500	
+Chr11_317	Pe14	1000	1	1000	
+Chr11_392	Pe14	500	0	118	neighbor_overlap;short_upstream
+Chr11_392	Pe14	1000	0	118	neighbor_overlap;short_upstream
+Chr11_459	Pe14	500	0	387	neighbor_overlap;short_upstream
+Chr11_459	Pe14	1000	0	387	neighbor_overlap;short_upstream
+Chr12_117	Pe14	500	0	151	neighbor_overlap;short_upstream
+Chr12_117	Pe14	1000	0	151	neighbor_overlap;short_upstream
+Chr12_172	Pe14	500	0	175	neighbor_overlap;short_upstream
+Chr12_172	Pe14	1000	0	175	neighbor_overlap;short_upstream
+Chr12_206	Pe14	500	0	385	neighbor_overlap;short_upstream
+Chr12_206	Pe14	1000	0	385	neighbor_overlap;short_upstream
+Chr12_259	Pe14	500	0	255	neighbor_overlap;short_upstream
+Chr12_259	Pe14	1000	0	255	neighbor_overlap;short_upstream
+Chr12_49	Pe14	500	1	500	
+Chr12_49	Pe14	1000	0	793	neighbor_overlap;short_upstream
+Chr13_42	Pe14	500	1	500	
+Chr13_42	Pe14	1000	1	1000	
+Chr13_62	Pe14	500	1	500	
+Chr13_62	Pe14	1000	0	977	neighbor_overlap;short_upstream
+Chr14_132	Pe14	500	1	500	
+Chr14_132	Pe14	1000	1	1000	
+Chr17_113	Pe14	500	1	500	
+Chr17_113	Pe14	1000	1	1000	
+Chr17_16	Pe14	500	1	500	
+Chr17_16	Pe14	1000	1	1000	
+Chr17_215	Pe14	500	0	107	neighbor_overlap;short_upstream
+Chr17_215	Pe14	1000	0	107	neighbor_overlap;short_upstream
+Chr17_347	Pe14	500	0	419	neighbor_overlap;short_upstream
+Chr17_347	Pe14	1000	0	419	neighbor_overlap;short_upstream
+Chr17_358	Pe14	500	0	319	neighbor_overlap;short_upstream
+Chr17_358	Pe14	1000	0	319	neighbor_overlap;short_upstream
+Chr17_429	Pe14	500	0	28	neighbor_overlap;short_upstream
+Chr17_429	Pe14	1000	0	28	neighbor_overlap;short_upstream
+Chr1_1024	Pe14	500	0	222	neighbor_overlap;short_upstream
+Chr1_1024	Pe14	1000	0	222	neighbor_overlap;short_upstream
+Chr1_1239	Pe14	500	1	500	
+Chr1_1239	Pe14	1000	1	1000	
+Chr1_127	Pe14	500	1	500	
+Chr1_127	Pe14	1000	0	899	neighbor_overlap;short_upstream
+Chr1_254	Pe14	500	0	498	neighbor_overlap;short_upstream
+Chr1_254	Pe14	1000	0	498	neighbor_overlap;short_upstream
+Chr1_281	Pe14	500	1	500	
+Chr1_281	Pe14	1000	1	1000	
+Chr1_414	Pe14	500	0	361	neighbor_overlap;short_upstream
+Chr1_414	Pe14	1000	0	361	neighbor_overlap;short_upstream
+Chr1_593	Pe14	500	1	500	
+Chr1_593	Pe14	1000	1	1000	
+Chr1_599	Pe14	500	1	500	
+Chr1_599	Pe14	1000	0	505	neighbor_overlap;short_upstream
+Chr1_642	Pe14	500	1	500	
+Chr1_642	Pe14	1000	0	686	neighbor_overlap;short_upstream
+Chr1_66	Pe14	500	0	59	neighbor_overlap;short_upstream
+Chr1_66	Pe14	1000	0	59	neighbor_overlap;short_upstream
+Chr1_848	Pe14	500	0	60	neighbor_overlap;short_upstream
+Chr1_848	Pe14	1000	0	60	neighbor_overlap;short_upstream
+Chr1_864	Pe14	500	1	500	
+Chr1_864	Pe14	1000	0	908	neighbor_overlap;short_upstream
+Chr1_972	Pe14	500	0	222	neighbor_overlap;short_upstream
+Chr1_972	Pe14	1000	0	222	neighbor_overlap;short_upstream
+Chr2_159	Pe14	500	1	500	
+Chr2_159	Pe14	1000	1	1000	
+Chr2_339	Pe14	500	0	251	neighbor_overlap;short_upstream
+Chr2_339	Pe14	1000	0	251	neighbor_overlap;short_upstream
+Chr2_409	Pe14	500	0	140	neighbor_overlap;short_upstream
+Chr2_409	Pe14	1000	0	140	neighbor_overlap;short_upstream
+Chr2_525	Pe14	500	0	126	neighbor_overlap;short_upstream
+Chr2_525	Pe14	1000	0	126	neighbor_overlap;short_upstream
+Chr3_123	Pe14	500	1	500	
+Chr3_123	Pe14	1000	0	571	neighbor_overlap;short_upstream
+Chr3_176	Pe14	500	0	328	neighbor_overlap;short_upstream
+Chr3_176	Pe14	1000	0	328	neighbor_overlap;short_upstream
+Chr3_234	Pe14	500	1	500	
+Chr3_234	Pe14	1000	0	987	neighbor_overlap;short_upstream
+Chr3_295	Pe14	500	0	284	neighbor_overlap;short_upstream
+Chr3_295	Pe14	1000	0	284	neighbor_overlap;short_upstream
+Chr3_477	Pe14	500	0	435	neighbor_overlap;short_upstream
+Chr3_477	Pe14	1000	0	435	neighbor_overlap;short_upstream
+Chr3_483	Pe14	500	0	118	neighbor_overlap;short_upstream
+Chr3_483	Pe14	1000	0	118	neighbor_overlap;short_upstream
+Chr3_489	Pe14	500	1	500	
+Chr3_489	Pe14	1000	1	1000	
+Chr3_523	Pe14	500	0	263	neighbor_overlap;short_upstream
+Chr3_523	Pe14	1000	0	263	neighbor_overlap;short_upstream
+Chr4_236	Pe14	500	1	500	
+Chr4_236	Pe14	1000	1	1000	
+Chr4_238	Pe14	500	1	500	
+Chr4_238	Pe14	1000	1	1000	
+Chr4_255	Pe14	500	0	258	neighbor_overlap;short_upstream
+Chr4_255	Pe14	1000	0	258	neighbor_overlap;short_upstream
+Chr4_280	Pe14	500	1	500	
+Chr4_280	Pe14	1000	1	1000	
+Chr4_314	Pe14	500	0	375	neighbor_overlap;short_upstream
+Chr4_314	Pe14	1000	0	375	neighbor_overlap;short_upstream
+Chr4_348	Pe14	500	1	500	
+Chr4_348	Pe14	1000	1	1000	
+Chr4_430	Pe14	500	0	123	neighbor_overlap;short_upstream
+Chr4_430	Pe14	1000	0	123	neighbor_overlap;short_upstream
+Chr4_55	Pe14	500	0	271	neighbor_overlap;short_upstream
+Chr4_55	Pe14	1000	0	271	neighbor_overlap;short_upstream
+Chr4_646	Pe14	500	1	500	
+Chr4_646	Pe14	1000	0	916	neighbor_overlap;short_upstream
+Chr4_655	Pe14	500	0	395	neighbor_overlap;short_upstream
+Chr4_655	Pe14	1000	0	395	neighbor_overlap;short_upstream
+Chr4_674	Pe14	500	0	181	neighbor_overlap;short_upstream
+Chr4_674	Pe14	1000	0	181	neighbor_overlap;short_upstream
+Chr5_123	Pe14	500	1	500	
+Chr5_123	Pe14	1000	1	1000	
+Chr5_174	Pe14	500	0	20	neighbor_overlap;short_upstream
+Chr5_174	Pe14	1000	0	20	neighbor_overlap;short_upstream
+Chr5_195	Pe14	500	1	500	
+Chr5_195	Pe14	1000	1	1000	
+Chr5_199	Pe14	500	1	500	
+Chr5_199	Pe14	1000	1	1000	
+Chr5_38	Pe14	500	1	500	
+Chr5_38	Pe14	1000	1	1000	
+Chr5_380	Pe14	500	1	500	
+Chr5_380	Pe14	1000	1	1000	
+Chr5_86	Pe14	500	0	237	neighbor_overlap;short_upstream
+Chr5_86	Pe14	1000	0	237	neighbor_overlap;short_upstream
+Chr6_160	Pe14	500	0	17	neighbor_overlap;short_upstream
+Chr6_160	Pe14	1000	0	17	neighbor_overlap;short_upstream
+Chr6_230	Pe14	500	0	368	neighbor_overlap;short_upstream
+Chr6_230	Pe14	1000	0	368	neighbor_overlap;short_upstream
+Chr6_236	Pe14	500	1	500	
+Chr6_236	Pe14	1000	0	859	neighbor_overlap;short_upstream
+Chr6_241	Pe14	500	1	500	
+Chr6_241	Pe14	1000	1	1000	
+Chr6_242	Pe14	500	1	500	
+Chr6_242	Pe14	1000	0	687	neighbor_overlap;short_upstream
+Chr6_305	Pe14	500	1	500	
+Chr6_305	Pe14	1000	1	1000	
+Chr6_346	Pe14	500	0	142	neighbor_overlap;short_upstream
+Chr6_346	Pe14	1000	0	142	neighbor_overlap;short_upstream
+Chr6_354	Pe14	500	0	231	neighbor_overlap;short_upstream
+Chr6_354	Pe14	1000	0	231	neighbor_overlap;short_upstream
+Chr6_382	Pe14	500	0	142	neighbor_overlap;short_upstream
+Chr6_382	Pe14	1000	0	142	neighbor_overlap;short_upstream
+Chr6_451	Pe14	500	1	500	
+Chr6_451	Pe14	1000	1	1000	
+Chr6_47	Pe14	500	0	416	neighbor_overlap;short_upstream
+Chr6_47	Pe14	1000	0	416	neighbor_overlap;short_upstream
+Chr6_473	Pe14	500	0	187	neighbor_overlap;short_upstream
+Chr6_473	Pe14	1000	0	187	neighbor_overlap;short_upstream
+Chr6_525	Pe14	500	0	430	neighbor_overlap;short_upstream
+Chr6_525	Pe14	1000	0	430	neighbor_overlap;short_upstream
+Chr6_594	Pe14	500	0	321	neighbor_overlap;short_upstream
+Chr6_594	Pe14	1000	0	321	neighbor_overlap;short_upstream
+Chr6_601	Pe14	500	1	500	
+Chr6_601	Pe14	1000	1	1000	
+Chr6_620	Pe14	500	1	500	
+Chr6_620	Pe14	1000	1	1000	
+Chr7_194	Pe14	500	1	500	
+Chr7_194	Pe14	1000	1	1000	
+Chr7_53	Pe14	500	1	500	
+Chr7_53	Pe14	1000	1	1000	
+Chr7_84	Pe14	500	1	500	
+Chr7_84	Pe14	1000	0	721	neighbor_overlap;short_upstream
+Chr7_86	Pe14	500	1	500	
+Chr7_86	Pe14	1000	0	795	neighbor_overlap;short_upstream
+Chr8_138	Pe14	500	1	500	
+Chr8_138	Pe14	1000	1	1000	
+Chr8_160	Pe14	500	0	147	neighbor_overlap;short_upstream
+Chr8_160	Pe14	1000	0	147	neighbor_overlap;short_upstream
+Chr8_168	Pe14	500	0	428	neighbor_overlap;short_upstream
+Chr8_168	Pe14	1000	0	428	neighbor_overlap;short_upstream
+Chr8_188	Pe14	500	1	500	
+Chr8_188	Pe14	1000	1	1000	
+Chr8_261	Pe14	500	0	482	neighbor_overlap;short_upstream
+Chr8_261	Pe14	1000	0	482	neighbor_overlap;short_upstream
+Chr8_75	Pe14	500	0	166	neighbor_overlap;short_upstream
+Chr8_75	Pe14	1000	0	166	neighbor_overlap;short_upstream
+Chr9_127	Pe14	500	0	214	neighbor_overlap;short_upstream
+Chr9_127	Pe14	1000	0	214	neighbor_overlap;short_upstream
+Chr9_141	Pe14	500	0	164	neighbor_overlap;short_upstream
+Chr9_141	Pe14	1000	0	164	neighbor_overlap;short_upstream
+Chr9_252	Pe14	500	0	6	neighbor_overlap;short_upstream
+Chr9_252	Pe14	1000	0	6	neighbor_overlap;short_upstream
+Chr9_264	Pe14	500	1	500	
+Chr9_264	Pe14	1000	0	806	neighbor_overlap;short_upstream
+Chr10_1056	Pe18	500	1	500	
+Chr10_1056	Pe18	1000	1	1000	
+Chr10_139	Pe18	500	0	31	neighbor_overlap;short_upstream
+Chr10_139	Pe18	1000	0	31	neighbor_overlap;short_upstream
+Chr10_190	Pe18	500	1	500	
+Chr10_190	Pe18	1000	1	1000	
+Chr10_393	Pe18	500	0	216	neighbor_overlap;short_upstream
+Chr10_393	Pe18	1000	0	216	neighbor_overlap;short_upstream
+Chr10_396	Pe18	500	1	500	
+Chr10_396	Pe18	1000	1	1000	
+Chr10_463	Pe18	500	1	500	
+Chr10_463	Pe18	1000	0	808	neighbor_overlap;short_upstream
+Chr10_635	Pe18	500	0	208	neighbor_overlap;short_upstream
+Chr10_635	Pe18	1000	0	208	neighbor_overlap;short_upstream
+Chr11_147	Pe18	500	0	445	neighbor_overlap;short_upstream
+Chr11_147	Pe18	1000	0	445	neighbor_overlap;short_upstream
+Chr11_214	Pe18	500	0	82	neighbor_overlap;short_upstream
+Chr11_214	Pe18	1000	0	82	neighbor_overlap;short_upstream
+Chr11_310	Pe18	500	1	500	
+Chr11_310	Pe18	1000	1	1000	
+Chr11_317	Pe18	500	1	500	
+Chr11_317	Pe18	1000	1	1000	
+Chr11_392	Pe18	500	0	118	neighbor_overlap;short_upstream
+Chr11_392	Pe18	1000	0	118	neighbor_overlap;short_upstream
+Chr11_459	Pe18	500	0	387	neighbor_overlap;short_upstream
+Chr11_459	Pe18	1000	0	387	neighbor_overlap;short_upstream
+Chr12_117	Pe18	500	0	150	neighbor_overlap;short_upstream
+Chr12_117	Pe18	1000	0	150	neighbor_overlap;short_upstream
+Chr12_172	Pe18	500	0	175	neighbor_overlap;short_upstream
+Chr12_172	Pe18	1000	0	175	neighbor_overlap;short_upstream
+Chr12_206	Pe18	500	0	385	neighbor_overlap;short_upstream
+Chr12_206	Pe18	1000	0	385	neighbor_overlap;short_upstream
+Chr12_259	Pe18	500	0	255	neighbor_overlap;short_upstream
+Chr12_259	Pe18	1000	0	255	neighbor_overlap;short_upstream
+Chr12_49	Pe18	500	1	500	
+Chr12_49	Pe18	1000	0	794	neighbor_overlap;short_upstream
+Chr13_42	Pe18	500	1	500	
+Chr13_42	Pe18	1000	1	1000	
+Chr13_62	Pe18	500	1	500	
+Chr13_62	Pe18	1000	0	977	neighbor_overlap;short_upstream
+Chr14_132	Pe18	500	1	500	
+Chr14_132	Pe18	1000	1	1000	
+Chr17_113	Pe18	500	1	500	
+Chr17_113	Pe18	1000	1	1000	
+Chr17_16	Pe18	500	1	500	
+Chr17_16	Pe18	1000	1	1000	
+Chr17_215	Pe18	500	0	103	neighbor_overlap;short_upstream
+Chr17_215	Pe18	1000	0	103	neighbor_overlap;short_upstream
+Chr17_347	Pe18	500	0	419	neighbor_overlap;short_upstream
+Chr17_347	Pe18	1000	0	419	neighbor_overlap;short_upstream
+Chr17_358	Pe18	500	0	318	neighbor_overlap;short_upstream
+Chr17_358	Pe18	1000	0	318	neighbor_overlap;short_upstream
+Chr17_429	Pe18	500	0	28	neighbor_overlap;short_upstream
+Chr17_429	Pe18	1000	0	28	neighbor_overlap;short_upstream
+Chr1_1024	Pe18	500	0	222	neighbor_overlap;short_upstream
+Chr1_1024	Pe18	1000	0	222	neighbor_overlap;short_upstream
+Chr1_1239	Pe18	500	1	500	
+Chr1_1239	Pe18	1000	1	1000	
+Chr1_127	Pe18	500	1	500	
+Chr1_127	Pe18	1000	0	899	neighbor_overlap;short_upstream
+Chr1_254	Pe18	500	0	495	neighbor_overlap;short_upstream
+Chr1_254	Pe18	1000	0	495	neighbor_overlap;short_upstream
+Chr1_281	Pe18	500	1	500	
+Chr1_281	Pe18	1000	1	1000	
+Chr1_414	Pe18	500	0	361	neighbor_overlap;short_upstream
+Chr1_414	Pe18	1000	0	361	neighbor_overlap;short_upstream
+Chr1_593	Pe18	500	1	500	
+Chr1_593	Pe18	1000	1	1000	
+Chr1_599	Pe18	500	1	500	
+Chr1_599	Pe18	1000	0	505	neighbor_overlap;short_upstream
+Chr1_642	Pe18	500	1	500	
+Chr1_642	Pe18	1000	0	686	neighbor_overlap;short_upstream
+Chr1_66	Pe18	500	0	59	neighbor_overlap;short_upstream
+Chr1_66	Pe18	1000	0	59	neighbor_overlap;short_upstream
+Chr1_848	Pe18	500	0	60	neighbor_overlap;short_upstream
+Chr1_848	Pe18	1000	0	60	neighbor_overlap;short_upstream
+Chr1_864	Pe18	500	1	500	
+Chr1_864	Pe18	1000	0	908	neighbor_overlap;short_upstream
+Chr1_972	Pe18	500	0	222	neighbor_overlap;short_upstream
+Chr1_972	Pe18	1000	0	222	neighbor_overlap;short_upstream
+Chr2_159	Pe18	500	1	500	
+Chr2_159	Pe18	1000	1	1000	
+Chr2_339	Pe18	500	0	251	neighbor_overlap;short_upstream
+Chr2_339	Pe18	1000	0	251	neighbor_overlap;short_upstream
+Chr2_409	Pe18	500	0	140	neighbor_overlap;short_upstream
+Chr2_409	Pe18	1000	0	140	neighbor_overlap;short_upstream
+Chr2_525	Pe18	500	0	126	neighbor_overlap;short_upstream
+Chr2_525	Pe18	1000	0	126	neighbor_overlap;short_upstream
+Chr3_123	Pe18	500	1	500	
+Chr3_123	Pe18	1000	0	571	neighbor_overlap;short_upstream
+Chr3_176	Pe18	500	0	328	neighbor_overlap;short_upstream
+Chr3_176	Pe18	1000	0	328	neighbor_overlap;short_upstream
+Chr3_234	Pe18	500	1	500	
+Chr3_234	Pe18	1000	0	987	neighbor_overlap;short_upstream
+Chr3_295	Pe18	500	0	284	neighbor_overlap;short_upstream
+Chr3_295	Pe18	1000	0	284	neighbor_overlap;short_upstream
+Chr3_477	Pe18	500	0	435	neighbor_overlap;short_upstream
+Chr3_477	Pe18	1000	0	435	neighbor_overlap;short_upstream
+Chr3_483	Pe18	500	0	118	neighbor_overlap;short_upstream
+Chr3_483	Pe18	1000	0	118	neighbor_overlap;short_upstream
+Chr3_489	Pe18	500	1	500	
+Chr3_489	Pe18	1000	1	1000	
+Chr3_523	Pe18	500	0	231	neighbor_overlap;short_upstream
+Chr3_523	Pe18	1000	0	231	neighbor_overlap;short_upstream
+Chr4_236	Pe18	500	1	500	
+Chr4_236	Pe18	1000	1	1000	
+Chr4_238	Pe18	500	1	500	
+Chr4_238	Pe18	1000	1	1000	
+Chr4_255	Pe18	500	0	258	neighbor_overlap;short_upstream
+Chr4_255	Pe18	1000	0	258	neighbor_overlap;short_upstream
+Chr4_280	Pe18	500	1	500	
+Chr4_280	Pe18	1000	1	1000	
+Chr4_314	Pe18	500	0	374	neighbor_overlap;short_upstream
+Chr4_314	Pe18	1000	0	374	neighbor_overlap;short_upstream
+Chr4_348	Pe18	500	1	500	
+Chr4_348	Pe18	1000	1	1000	
+Chr4_430	Pe18	500	0	123	neighbor_overlap;short_upstream
+Chr4_430	Pe18	1000	0	123	neighbor_overlap;short_upstream
+Chr4_55	Pe18	500	0	271	neighbor_overlap;short_upstream
+Chr4_55	Pe18	1000	0	271	neighbor_overlap;short_upstream
+Chr4_646	Pe18	500	1	500	
+Chr4_646	Pe18	1000	0	916	neighbor_overlap;short_upstream
+Chr4_655	Pe18	500	0	395	neighbor_overlap;short_upstream
+Chr4_655	Pe18	1000	0	395	neighbor_overlap;short_upstream
+Chr4_674	Pe18	500	0	181	neighbor_overlap;short_upstream
+Chr4_674	Pe18	1000	0	181	neighbor_overlap;short_upstream
+Chr5_123	Pe18	500	1	500	
+Chr5_123	Pe18	1000	1	1000	
+Chr5_174	Pe18	500	0	20	neighbor_overlap;short_upstream
+Chr5_174	Pe18	1000	0	20	neighbor_overlap;short_upstream
+Chr5_195	Pe18	500	1	500	
+Chr5_195	Pe18	1000	1	1000	
+Chr5_199	Pe18	500	1	500	
+Chr5_199	Pe18	1000	1	1000	
+Chr5_38	Pe18	500	1	500	
+Chr5_38	Pe18	1000	0	838	neighbor_overlap;short_upstream
+Chr5_380	Pe18	500	1	500	
+Chr5_380	Pe18	1000	1	1000	
+Chr5_86	Pe18	500	0	237	neighbor_overlap;short_upstream
+Chr5_86	Pe18	1000	0	237	neighbor_overlap;short_upstream
+Chr6_160	Pe18	500	0	17	neighbor_overlap;short_upstream
+Chr6_160	Pe18	1000	0	17	neighbor_overlap;short_upstream
+Chr6_230	Pe18	500	0	368	neighbor_overlap;short_upstream
+Chr6_230	Pe18	1000	0	368	neighbor_overlap;short_upstream
+Chr6_236	Pe18	500	1	500	
+Chr6_236	Pe18	1000	0	859	neighbor_overlap;short_upstream
+Chr6_241	Pe18	500	1	500	
+Chr6_241	Pe18	1000	1	1000	
+Chr6_242	Pe18	500	1	500	
+Chr6_242	Pe18	1000	0	687	neighbor_overlap;short_upstream
+Chr6_305	Pe18	500	1	500	
+Chr6_305	Pe18	1000	1	1000	
+Chr6_346	Pe18	500	0	142	neighbor_overlap;short_upstream
+Chr6_346	Pe18	1000	0	142	neighbor_overlap;short_upstream
+Chr6_354	Pe18	500	0	231	neighbor_overlap;short_upstream
+Chr6_354	Pe18	1000	0	231	neighbor_overlap;short_upstream
+Chr6_382	Pe18	500	0	142	neighbor_overlap;short_upstream
+Chr6_382	Pe18	1000	0	142	neighbor_overlap;short_upstream
+Chr6_451	Pe18	500	1	500	
+Chr6_451	Pe18	1000	1	1000	
+Chr6_47	Pe18	500	0	390	neighbor_overlap;short_upstream
+Chr6_47	Pe18	1000	0	390	neighbor_overlap;short_upstream
+Chr6_473	Pe18	500	0	187	neighbor_overlap;short_upstream
+Chr6_473	Pe18	1000	0	187	neighbor_overlap;short_upstream
+Chr6_525	Pe18	500	0	430	neighbor_overlap;short_upstream
+Chr6_525	Pe18	1000	0	430	neighbor_overlap;short_upstream
+Chr6_594	Pe18	500	0	321	neighbor_overlap;short_upstream
+Chr6_594	Pe18	1000	0	321	neighbor_overlap;short_upstream
+Chr6_601	Pe18	500	1	500	
+Chr6_601	Pe18	1000	1	1000	
+Chr6_620	Pe18	500	1	500	
+Chr6_620	Pe18	1000	1	1000	
+Chr7_194	Pe18	500	1	500	
+Chr7_194	Pe18	1000	1	1000	
+Chr7_53	Pe18	500	1	500	
+Chr7_53	Pe18	1000	1	1000	
+Chr7_84	Pe18	500	1	500	
+Chr7_84	Pe18	1000	0	721	neighbor_overlap;short_upstream
+Chr7_86	Pe18	500	1	500	
+Chr7_86	Pe18	1000	0	795	neighbor_overlap;short_upstream
+Chr8_138	Pe18	500	1	500	
+Chr8_138	Pe18	1000	1	1000	
+Chr8_160	Pe18	500	0	147	neighbor_overlap;short_upstream
+Chr8_160	Pe18	1000	0	147	neighbor_overlap;short_upstream
+Chr8_168	Pe18	500	0	428	neighbor_overlap;short_upstream
+Chr8_168	Pe18	1000	0	428	neighbor_overlap;short_upstream
+Chr8_188	Pe18	500	1	500	
+Chr8_188	Pe18	1000	1	1000	
+Chr8_261	Pe18	500	0	482	neighbor_overlap;short_upstream
+Chr8_261	Pe18	1000	0	482	neighbor_overlap;short_upstream
+Chr8_75	Pe18	500	0	166	neighbor_overlap;short_upstream
+Chr8_75	Pe18	1000	0	166	neighbor_overlap;short_upstream
+Chr9_127	Pe18	500	0	214	neighbor_overlap;short_upstream
+Chr9_127	Pe18	1000	0	214	neighbor_overlap;short_upstream
+Chr9_141	Pe18	500	0	164	neighbor_overlap;short_upstream
+Chr9_141	Pe18	1000	0	164	neighbor_overlap;short_upstream
+Chr9_252	Pe18	500	0	6	neighbor_overlap;short_upstream
+Chr9_252	Pe18	1000	0	6	neighbor_overlap;short_upstream
+Chr9_264	Pe18	500	1	500	
+Chr9_264	Pe18	1000	0	791	neighbor_overlap;short_upstream
+Chr10_1056	Pe9	500	1	500	
+Chr10_1056	Pe9	1000	1	1000	
+Chr10_139	Pe9	500	0	287	neighbor_overlap;short_upstream
+Chr10_139	Pe9	1000	0	287	neighbor_overlap;short_upstream
+Chr10_190	Pe9	500	1	500	
+Chr10_190	Pe9	1000	0	808	neighbor_overlap;short_upstream
+Chr10_393	Pe9	500	0	216	neighbor_overlap;short_upstream
+Chr10_393	Pe9	1000	0	216	neighbor_overlap;short_upstream
+Chr10_396	Pe9	500	1	500	
+Chr10_396	Pe9	1000	1	1000	
+Chr10_463	Pe9	500	1	500	
+Chr10_463	Pe9	1000	0	808	neighbor_overlap;short_upstream
+Chr10_635	Pe9	500	0	208	neighbor_overlap;short_upstream
+Chr10_635	Pe9	1000	0	208	neighbor_overlap;short_upstream
+Chr11_147	Pe9	500	0	445	neighbor_overlap;short_upstream
+Chr11_147	Pe9	1000	0	445	neighbor_overlap;short_upstream
+Chr11_214	Pe9	500	0	82	neighbor_overlap;short_upstream
+Chr11_214	Pe9	1000	0	82	neighbor_overlap;short_upstream
+Chr11_310	Pe9	500	1	500	
+Chr11_310	Pe9	1000	1	1000	
+Chr11_317	Pe9	500	1	500	
+Chr11_317	Pe9	1000	1	1000	
+Chr11_392	Pe9	500	0	118	neighbor_overlap;short_upstream
+Chr11_392	Pe9	1000	0	118	neighbor_overlap;short_upstream
+Chr11_459	Pe9	500	0	387	neighbor_overlap;short_upstream
+Chr11_459	Pe9	1000	0	387	neighbor_overlap;short_upstream
+Chr12_117	Pe9	500	0	151	neighbor_overlap;short_upstream
+Chr12_117	Pe9	1000	0	151	neighbor_overlap;short_upstream
+Chr12_172	Pe9	500	0	175	neighbor_overlap;short_upstream
+Chr12_172	Pe9	1000	0	175	neighbor_overlap;short_upstream
+Chr12_206	Pe9	500	0	385	neighbor_overlap;short_upstream
+Chr12_206	Pe9	1000	0	385	neighbor_overlap;short_upstream
+Chr12_259	Pe9	500	0	255	neighbor_overlap;short_upstream
+Chr12_259	Pe9	1000	0	255	neighbor_overlap;short_upstream
+Chr12_49	Pe9	500	1	500	
+Chr12_49	Pe9	1000	0	793	neighbor_overlap;short_upstream
+Chr13_42	Pe9	500	1	500	
+Chr13_42	Pe9	1000	1	1000	
+Chr13_62	Pe9	500	1	500	
+Chr13_62	Pe9	1000	0	977	neighbor_overlap;short_upstream
+Chr14_132	Pe9	500	1	500	
+Chr14_132	Pe9	1000	1	1000	
+Chr17_113	Pe9	500	1	500	
+Chr17_113	Pe9	1000	1	1000	
+Chr17_16	Pe9	500	1	500	
+Chr17_16	Pe9	1000	1	1000	
+Chr17_215	Pe9	500	0	103	neighbor_overlap;short_upstream
+Chr17_215	Pe9	1000	0	103	neighbor_overlap;short_upstream
+Chr17_347	Pe9	500	0	417	neighbor_overlap;short_upstream
+Chr17_347	Pe9	1000	0	417	neighbor_overlap;short_upstream
+Chr17_358	Pe9	500	0	318	neighbor_overlap;short_upstream
+Chr17_358	Pe9	1000	0	318	neighbor_overlap;short_upstream
+Chr17_429	Pe9	500	0	28	neighbor_overlap;short_upstream
+Chr17_429	Pe9	1000	0	28	neighbor_overlap;short_upstream
+Chr1_1024	Pe9	500	0	222	neighbor_overlap;short_upstream
+Chr1_1024	Pe9	1000	0	222	neighbor_overlap;short_upstream
+Chr1_1239	Pe9	500	1	500	
+Chr1_1239	Pe9	1000	1	1000	
+Chr1_127	Pe9	500	1	500	
+Chr1_127	Pe9	1000	0	899	neighbor_overlap;short_upstream
+Chr1_254	Pe9	500	0	498	neighbor_overlap;short_upstream
+Chr1_254	Pe9	1000	0	498	neighbor_overlap;short_upstream
+Chr1_281	Pe9	500	1	500	
+Chr1_281	Pe9	1000	1	1000	
+Chr1_414	Pe9	500	0	361	neighbor_overlap;short_upstream
+Chr1_414	Pe9	1000	0	361	neighbor_overlap;short_upstream
+Chr1_593	Pe9	500	1	500	
+Chr1_593	Pe9	1000	1	1000	
+Chr1_599	Pe9	500	1	500	
+Chr1_599	Pe9	1000	0	505	neighbor_overlap;short_upstream
+Chr1_642	Pe9	500	1	500	
+Chr1_642	Pe9	1000	0	686	neighbor_overlap;short_upstream
+Chr1_66	Pe9	500	0	59	neighbor_overlap;short_upstream
+Chr1_66	Pe9	1000	0	59	neighbor_overlap;short_upstream
+Chr1_848	Pe9	500	0	60	neighbor_overlap;short_upstream
+Chr1_848	Pe9	1000	0	60	neighbor_overlap;short_upstream
+Chr1_864	Pe9	500	1	500	
+Chr1_864	Pe9	1000	0	909	neighbor_overlap;short_upstream
+Chr1_972	Pe9	500	0	222	neighbor_overlap;short_upstream
+Chr1_972	Pe9	1000	0	222	neighbor_overlap;short_upstream
+Chr2_159	Pe9	500	1	500	
+Chr2_159	Pe9	1000	1	1000	
+Chr2_339	Pe9	500	0	251	neighbor_overlap;short_upstream
+Chr2_339	Pe9	1000	0	251	neighbor_overlap;short_upstream
+Chr2_409	Pe9	500	0	140	neighbor_overlap;short_upstream
+Chr2_409	Pe9	1000	0	140	neighbor_overlap;short_upstream
+Chr2_525	Pe9	500	0	126	neighbor_overlap;short_upstream
+Chr2_525	Pe9	1000	0	126	neighbor_overlap;short_upstream
+Chr3_123	Pe9	500	1	500	
+Chr3_123	Pe9	1000	0	571	neighbor_overlap;short_upstream
+Chr3_176	Pe9	500	0	328	neighbor_overlap;short_upstream
+Chr3_176	Pe9	1000	0	328	neighbor_overlap;short_upstream
+Chr3_234	Pe9	500	1	500	
+Chr3_234	Pe9	1000	0	987	neighbor_overlap;short_upstream
+Chr3_295	Pe9	500	0	284	neighbor_overlap;short_upstream
+Chr3_295	Pe9	1000	0	284	neighbor_overlap;short_upstream
+Chr3_477	Pe9	500	0	429	neighbor_overlap;short_upstream
+Chr3_477	Pe9	1000	0	429	neighbor_overlap;short_upstream
+Chr3_483	Pe9	500	0	118	neighbor_overlap;short_upstream
+Chr3_483	Pe9	1000	0	118	neighbor_overlap;short_upstream
+Chr3_489	Pe9	500	1	500	
+Chr3_489	Pe9	1000	1	1000	
+Chr3_523	Pe9	500	0	235	neighbor_overlap;short_upstream
+Chr3_523	Pe9	1000	0	235	neighbor_overlap;short_upstream
+Chr4_236	Pe9	500	1	500	
+Chr4_236	Pe9	1000	1	1000	
+Chr4_238	Pe9	500	1	500	
+Chr4_238	Pe9	1000	1	1000	
+Chr4_255	Pe9	500	0	258	neighbor_overlap;short_upstream
+Chr4_255	Pe9	1000	0	258	neighbor_overlap;short_upstream
+Chr4_280	Pe9	500	1	500	
+Chr4_280	Pe9	1000	1	1000	
+Chr4_314	Pe9	500	0	374	neighbor_overlap;short_upstream
+Chr4_314	Pe9	1000	0	374	neighbor_overlap;short_upstream
+Chr4_348	Pe9	500	1	500	
+Chr4_348	Pe9	1000	1	1000	
+Chr4_430	Pe9	500	0	123	neighbor_overlap;short_upstream
+Chr4_430	Pe9	1000	0	123	neighbor_overlap;short_upstream
+Chr4_55	Pe9	500	0	271	neighbor_overlap;short_upstream
+Chr4_55	Pe9	1000	0	271	neighbor_overlap;short_upstream
+Chr4_646	Pe9	500	1	500	
+Chr4_646	Pe9	1000	0	916	neighbor_overlap;short_upstream
+Chr4_655	Pe9	500	0	395	neighbor_overlap;short_upstream
+Chr4_655	Pe9	1000	0	395	neighbor_overlap;short_upstream
+Chr4_674	Pe9	500	0	181	neighbor_overlap;short_upstream
+Chr4_674	Pe9	1000	0	181	neighbor_overlap;short_upstream
+Chr5_123	Pe9	500	1	500	
+Chr5_123	Pe9	1000	1	1000	
+Chr5_174	Pe9	500	0	20	neighbor_overlap;short_upstream
+Chr5_174	Pe9	1000	0	20	neighbor_overlap;short_upstream
+Chr5_195	Pe9	500	1	500	
+Chr5_195	Pe9	1000	1	1000	
+Chr5_199	Pe9	500	1	500	
+Chr5_199	Pe9	1000	1	1000	
+Chr5_38	Pe9	500	1	500	
+Chr5_38	Pe9	1000	0	735	neighbor_overlap;short_upstream
+Chr5_380	Pe9	500	1	500	
+Chr5_380	Pe9	1000	1	1000	
+Chr5_86	Pe9	500	0	237	neighbor_overlap;short_upstream
+Chr5_86	Pe9	1000	0	237	neighbor_overlap;short_upstream
+Chr6_160	Pe9	500	0	17	neighbor_overlap;short_upstream
+Chr6_160	Pe9	1000	0	17	neighbor_overlap;short_upstream
+Chr6_230	Pe9	500	0	368	neighbor_overlap;short_upstream
+Chr6_230	Pe9	1000	0	368	neighbor_overlap;short_upstream
+Chr6_236	Pe9	500	1	500	
+Chr6_236	Pe9	1000	0	859	neighbor_overlap;short_upstream
+Chr6_241	Pe9	500	1	500	
+Chr6_241	Pe9	1000	1	1000	
+Chr6_242	Pe9	500	1	500	
+Chr6_242	Pe9	1000	0	687	neighbor_overlap;short_upstream
+Chr6_305	Pe9	500	1	500	
+Chr6_305	Pe9	1000	1	1000	
+Chr6_346	Pe9	500	0	142	neighbor_overlap;short_upstream
+Chr6_346	Pe9	1000	0	142	neighbor_overlap;short_upstream
+Chr6_354	Pe9	500	0	231	neighbor_overlap;short_upstream
+Chr6_354	Pe9	1000	0	231	neighbor_overlap;short_upstream
+Chr6_382	Pe9	500	0	142	neighbor_overlap;short_upstream
+Chr6_382	Pe9	1000	0	142	neighbor_overlap;short_upstream
+Chr6_451	Pe9	500	1	500	
+Chr6_451	Pe9	1000	1	1000	
+Chr6_47	Pe9	500	0	387	neighbor_overlap;short_upstream
+Chr6_47	Pe9	1000	0	387	neighbor_overlap;short_upstream
+Chr6_473	Pe9	500	0	187	neighbor_overlap;short_upstream
+Chr6_473	Pe9	1000	0	187	neighbor_overlap;short_upstream
+Chr6_525	Pe9	500	0	430	neighbor_overlap;short_upstream
+Chr6_525	Pe9	1000	0	430	neighbor_overlap;short_upstream
+Chr6_594	Pe9	500	0	321	neighbor_overlap;short_upstream
+Chr6_594	Pe9	1000	0	321	neighbor_overlap;short_upstream
+Chr6_601	Pe9	500	1	500	
+Chr6_601	Pe9	1000	1	1000	
+Chr6_620	Pe9	500	1	500	
+Chr6_620	Pe9	1000	1	1000	
+Chr7_194	Pe9	500	1	500	
+Chr7_194	Pe9	1000	1	1000	
+Chr7_53	Pe9	500	1	500	
+Chr7_53	Pe9	1000	1	1000	
+Chr7_84	Pe9	500	1	500	
+Chr7_84	Pe9	1000	0	686	neighbor_overlap;short_upstream
+Chr7_86	Pe9	500	1	500	
+Chr7_86	Pe9	1000	0	795	neighbor_overlap;short_upstream
+Chr8_138	Pe9	500	1	500	
+Chr8_138	Pe9	1000	1	1000	
+Chr8_160	Pe9	500	0	147	neighbor_overlap;short_upstream
+Chr8_160	Pe9	1000	0	147	neighbor_overlap;short_upstream
+Chr8_168	Pe9	500	0	428	neighbor_overlap;short_upstream
+Chr8_168	Pe9	1000	0	428	neighbor_overlap;short_upstream
+Chr8_188	Pe9	500	1	500	
+Chr8_188	Pe9	1000	1	1000	
+Chr8_261	Pe9	500	0	482	neighbor_overlap;short_upstream
+Chr8_261	Pe9	1000	0	482	neighbor_overlap;short_upstream
+Chr8_75	Pe9	500	0	166	neighbor_overlap;short_upstream
+Chr8_75	Pe9	1000	0	166	neighbor_overlap;short_upstream
+Chr9_127	Pe9	500	0	214	neighbor_overlap;short_upstream
+Chr9_127	Pe9	1000	0	214	neighbor_overlap;short_upstream
+Chr9_141	Pe9	500	0	164	neighbor_overlap;short_upstream
+Chr9_141	Pe9	1000	0	164	neighbor_overlap;short_upstream
+Chr9_252	Pe9	500	0	6	neighbor_overlap;short_upstream
+Chr9_252	Pe9	1000	0	6	neighbor_overlap;short_upstream
+Chr9_264	Pe9	500	1	500	
+Chr9_264	Pe9	1000	0	804	neighbor_overlap;short_upstream
+Chr10_1056	Pe8	500	1	500	
+Chr10_1056	Pe8	1000	1	1000	
+Chr10_139	Pe8	500	0	460	neighbor_overlap;short_upstream
+Chr10_139	Pe8	1000	0	460	neighbor_overlap;short_upstream
+Chr10_190	Pe8	500	1	500	
+Chr10_190	Pe8	1000	1	1000	
+Chr10_393	Pe8	500	0	216	neighbor_overlap;short_upstream
+Chr10_393	Pe8	1000	0	216	neighbor_overlap;short_upstream
+Chr10_396	Pe8	500	1	500	
+Chr10_396	Pe8	1000	1	1000	
+Chr10_463	Pe8	500	1	500	
+Chr10_463	Pe8	1000	0	808	neighbor_overlap;short_upstream
+Chr10_635	Pe8	500	0	208	neighbor_overlap;short_upstream
+Chr10_635	Pe8	1000	0	208	neighbor_overlap;short_upstream
+Chr11_147	Pe8	500	0	445	neighbor_overlap;short_upstream
+Chr11_147	Pe8	1000	0	445	neighbor_overlap;short_upstream
+Chr11_214	Pe8	500	0	82	neighbor_overlap;short_upstream
+Chr11_214	Pe8	1000	0	82	neighbor_overlap;short_upstream
+Chr11_310	Pe8	500	1	500	
+Chr11_310	Pe8	1000	1	1000	
+Chr11_317	Pe8	500	1	500	
+Chr11_317	Pe8	1000	1	1000	
+Chr11_392	Pe8	500	0	118	neighbor_overlap;short_upstream
+Chr11_392	Pe8	1000	0	118	neighbor_overlap;short_upstream
+Chr11_459	Pe8	500	0	387	neighbor_overlap;short_upstream
+Chr11_459	Pe8	1000	0	387	neighbor_overlap;short_upstream
+Chr12_117	Pe8	500	0	152	neighbor_overlap;short_upstream
+Chr12_117	Pe8	1000	0	152	neighbor_overlap;short_upstream
+Chr12_172	Pe8	500	0	175	neighbor_overlap;short_upstream
+Chr12_172	Pe8	1000	0	175	neighbor_overlap;short_upstream
+Chr12_206	Pe8	500	0	385	neighbor_overlap;short_upstream
+Chr12_206	Pe8	1000	0	385	neighbor_overlap;short_upstream
+Chr12_259	Pe8	500	0	255	neighbor_overlap;short_upstream
+Chr12_259	Pe8	1000	0	255	neighbor_overlap;short_upstream
+Chr12_49	Pe8	500	1	500	
+Chr12_49	Pe8	1000	0	794	neighbor_overlap;short_upstream
+Chr13_42	Pe8	500	1	500	
+Chr13_42	Pe8	1000	1	1000	
+Chr13_62	Pe8	500	1	500	
+Chr13_62	Pe8	1000	0	977	neighbor_overlap;short_upstream
+Chr14_132	Pe8	500	1	500	
+Chr14_132	Pe8	1000	1	1000	
+Chr17_113	Pe8	500	1	500	
+Chr17_113	Pe8	1000	1	1000	
+Chr17_16	Pe8	500	1	500	
+Chr17_16	Pe8	1000	1	1000	
+Chr17_215	Pe8	500	0	107	neighbor_overlap;short_upstream
+Chr17_215	Pe8	1000	0	107	neighbor_overlap;short_upstream
+Chr17_347	Pe8	500	0	417	neighbor_overlap;short_upstream
+Chr17_347	Pe8	1000	0	417	neighbor_overlap;short_upstream
+Chr17_358	Pe8	500	0	318	neighbor_overlap;short_upstream
+Chr17_358	Pe8	1000	0	318	neighbor_overlap;short_upstream
+Chr17_429	Pe8	500	0	28	neighbor_overlap;short_upstream
+Chr17_429	Pe8	1000	0	28	neighbor_overlap;short_upstream
+Chr1_1024	Pe8	500	0	222	neighbor_overlap;short_upstream
+Chr1_1024	Pe8	1000	0	222	neighbor_overlap;short_upstream
+Chr1_1239	Pe8	500	1	500	
+Chr1_1239	Pe8	1000	1	1000	
+Chr1_127	Pe8	500	1	500	
+Chr1_127	Pe8	1000	0	899	neighbor_overlap;short_upstream
+Chr1_254	Pe8	500	0	498	neighbor_overlap;short_upstream
+Chr1_254	Pe8	1000	0	498	neighbor_overlap;short_upstream
+Chr1_281	Pe8	500	1	500	
+Chr1_281	Pe8	1000	1	1000	
+Chr1_414	Pe8	500	0	361	neighbor_overlap;short_upstream
+Chr1_414	Pe8	1000	0	361	neighbor_overlap;short_upstream
+Chr1_593	Pe8	500	1	500	
+Chr1_593	Pe8	1000	1	1000	
+Chr1_599	Pe8	500	1	500	
+Chr1_599	Pe8	1000	0	505	neighbor_overlap;short_upstream
+Chr1_642	Pe8	500	1	500	
+Chr1_642	Pe8	1000	0	686	neighbor_overlap;short_upstream
+Chr1_66	Pe8	500	0	59	neighbor_overlap;short_upstream
+Chr1_66	Pe8	1000	0	59	neighbor_overlap;short_upstream
+Chr1_848	Pe8	500	0	60	neighbor_overlap;short_upstream
+Chr1_848	Pe8	1000	0	60	neighbor_overlap;short_upstream
+Chr1_864	Pe8	500	1	500	
+Chr1_864	Pe8	1000	0	909	neighbor_overlap;short_upstream
+Chr1_972	Pe8	500	0	222	neighbor_overlap;short_upstream
+Chr1_972	Pe8	1000	0	222	neighbor_overlap;short_upstream
+Chr2_159	Pe8	500	1	500	
+Chr2_159	Pe8	1000	1	1000	
+Chr2_339	Pe8	500	0	251	neighbor_overlap;short_upstream
+Chr2_339	Pe8	1000	0	251	neighbor_overlap;short_upstream
+Chr2_409	Pe8	500	0	140	neighbor_overlap;short_upstream
+Chr2_409	Pe8	1000	0	140	neighbor_overlap;short_upstream
+Chr2_525	Pe8	500	0	126	neighbor_overlap;short_upstream
+Chr2_525	Pe8	1000	0	126	neighbor_overlap;short_upstream
+Chr3_123	Pe8	500	1	500	
+Chr3_123	Pe8	1000	0	571	neighbor_overlap;short_upstream
+Chr3_176	Pe8	500	0	328	neighbor_overlap;short_upstream
+Chr3_176	Pe8	1000	0	328	neighbor_overlap;short_upstream
+Chr3_234	Pe8	500	1	500	
+Chr3_234	Pe8	1000	0	987	neighbor_overlap;short_upstream
+Chr3_295	Pe8	500	0	284	neighbor_overlap;short_upstream
+Chr3_295	Pe8	1000	0	284	neighbor_overlap;short_upstream
+Chr3_477	Pe8	500	0	435	neighbor_overlap;short_upstream
+Chr3_477	Pe8	1000	0	435	neighbor_overlap;short_upstream
+Chr3_483	Pe8	500	0	118	neighbor_overlap;short_upstream
+Chr3_483	Pe8	1000	0	118	neighbor_overlap;short_upstream
+Chr3_489	Pe8	500	1	500	
+Chr3_489	Pe8	1000	1	1000	
+Chr3_523	Pe8	500	0	263	neighbor_overlap;short_upstream
+Chr3_523	Pe8	1000	0	263	neighbor_overlap;short_upstream
+Chr4_236	Pe8	500	1	500	
+Chr4_236	Pe8	1000	1	1000	
+Chr4_238	Pe8	500	1	500	
+Chr4_238	Pe8	1000	1	1000	
+Chr4_255	Pe8	500	0	258	neighbor_overlap;short_upstream
+Chr4_255	Pe8	1000	0	258	neighbor_overlap;short_upstream
+Chr4_280	Pe8	500	1	500	
+Chr4_280	Pe8	1000	1	1000	
+Chr4_314	Pe8	500	0	374	neighbor_overlap;short_upstream
+Chr4_314	Pe8	1000	0	374	neighbor_overlap;short_upstream
+Chr4_348	Pe8	500	1	500	
+Chr4_348	Pe8	1000	1	1000	
+Chr4_430	Pe8	500	0	122	neighbor_overlap;short_upstream
+Chr4_430	Pe8	1000	0	122	neighbor_overlap;short_upstream
+Chr4_55	Pe8	500	0	271	neighbor_overlap;short_upstream
+Chr4_55	Pe8	1000	0	271	neighbor_overlap;short_upstream
+Chr4_646	Pe8	500	1	500	
+Chr4_646	Pe8	1000	0	916	neighbor_overlap;short_upstream
+Chr4_655	Pe8	500	0	395	neighbor_overlap;short_upstream
+Chr4_655	Pe8	1000	0	395	neighbor_overlap;short_upstream
+Chr4_674	Pe8	500	0	181	neighbor_overlap;short_upstream
+Chr4_674	Pe8	1000	0	181	neighbor_overlap;short_upstream
+Chr5_123	Pe8	500	1	500	
+Chr5_123	Pe8	1000	1	1000	
+Chr5_174	Pe8	500	0	20	neighbor_overlap;short_upstream
+Chr5_174	Pe8	1000	0	20	neighbor_overlap;short_upstream
+Chr5_195	Pe8	500	1	500	
+Chr5_195	Pe8	1000	1	1000	
+Chr5_199	Pe8	500	1	500	
+Chr5_199	Pe8	1000	1	1000	
+Chr5_38	Pe8	500	1	500	
+Chr5_38	Pe8	1000	0	838	neighbor_overlap;short_upstream
+Chr5_380	Pe8	500	1	500	
+Chr5_380	Pe8	1000	1	1000	
+Chr5_86	Pe8	500	0	237	neighbor_overlap;short_upstream
+Chr5_86	Pe8	1000	0	237	neighbor_overlap;short_upstream
+Chr6_160	Pe8	500	0	17	neighbor_overlap;short_upstream
+Chr6_160	Pe8	1000	0	17	neighbor_overlap;short_upstream
+Chr6_230	Pe8	500	0	368	neighbor_overlap;short_upstream
+Chr6_230	Pe8	1000	0	368	neighbor_overlap;short_upstream
+Chr6_236	Pe8	500	1	500	
+Chr6_236	Pe8	1000	0	859	neighbor_overlap;short_upstream
+Chr6_241	Pe8	500	1	500	
+Chr6_241	Pe8	1000	1	1000	
+Chr6_242	Pe8	500	1	500	
+Chr6_242	Pe8	1000	0	687	neighbor_overlap;short_upstream
+Chr6_305	Pe8	500	1	500	
+Chr6_305	Pe8	1000	1	1000	
+Chr6_346	Pe8	500	0	142	neighbor_overlap;short_upstream
+Chr6_346	Pe8	1000	0	142	neighbor_overlap;short_upstream
+Chr6_354	Pe8	500	0	231	neighbor_overlap;short_upstream
+Chr6_354	Pe8	1000	0	231	neighbor_overlap;short_upstream
+Chr6_382	Pe8	500	0	142	neighbor_overlap;short_upstream
+Chr6_382	Pe8	1000	0	142	neighbor_overlap;short_upstream
+Chr6_451	Pe8	500	1	500	
+Chr6_451	Pe8	1000	1	1000	
+Chr6_47	Pe8	500	0	387	neighbor_overlap;short_upstream
+Chr6_47	Pe8	1000	0	387	neighbor_overlap;short_upstream
+Chr6_473	Pe8	500	0	187	neighbor_overlap;short_upstream
+Chr6_473	Pe8	1000	0	187	neighbor_overlap;short_upstream
+Chr6_525	Pe8	500	0	430	neighbor_overlap;short_upstream
+Chr6_525	Pe8	1000	0	430	neighbor_overlap;short_upstream
+Chr6_594	Pe8	500	0	321	neighbor_overlap;short_upstream
+Chr6_594	Pe8	1000	0	321	neighbor_overlap;short_upstream
+Chr6_601	Pe8	500	1	500	
+Chr6_601	Pe8	1000	1	1000	
+Chr6_620	Pe8	500	1	500	
+Chr6_620	Pe8	1000	1	1000	
+Chr7_194	Pe8	500	1	500	
+Chr7_194	Pe8	1000	1	1000	
+Chr7_53	Pe8	500	1	500	
+Chr7_53	Pe8	1000	1	1000	
+Chr7_84	Pe8	500	1	500	
+Chr7_84	Pe8	1000	0	721	neighbor_overlap;short_upstream
+Chr7_86	Pe8	500	1	500	
+Chr7_86	Pe8	1000	0	795	neighbor_overlap;short_upstream
+Chr8_138	Pe8	500	1	500	
+Chr8_138	Pe8	1000	1	1000	
+Chr8_160	Pe8	500	0	147	neighbor_overlap;short_upstream
+Chr8_160	Pe8	1000	0	147	neighbor_overlap;short_upstream
+Chr8_168	Pe8	500	0	428	neighbor_overlap;short_upstream
+Chr8_168	Pe8	1000	0	428	neighbor_overlap;short_upstream
+Chr8_188	Pe8	500	1	500	
+Chr8_188	Pe8	1000	1	1000	
+Chr8_261	Pe8	500	0	482	neighbor_overlap;short_upstream
+Chr8_261	Pe8	1000	0	482	neighbor_overlap;short_upstream
+Chr8_75	Pe8	500	0	166	neighbor_overlap;short_upstream
+Chr8_75	Pe8	1000	0	166	neighbor_overlap;short_upstream
+Chr9_127	Pe8	500	0	214	neighbor_overlap;short_upstream
+Chr9_127	Pe8	1000	0	214	neighbor_overlap;short_upstream
+Chr9_141	Pe8	500	0	164	neighbor_overlap;short_upstream
+Chr9_141	Pe8	1000	0	164	neighbor_overlap;short_upstream
+Chr9_252	Pe8	500	0	6	neighbor_overlap;short_upstream
+Chr9_252	Pe8	1000	0	6	neighbor_overlap;short_upstream
+Chr9_264	Pe8	500	1	500	
+Chr9_264	Pe8	1000	0	796	neighbor_overlap;short_upstream
