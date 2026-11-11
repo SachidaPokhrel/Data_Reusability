@@ -19,6 +19,7 @@ def now():
 
 
 def load_config(path):
+    """Load a mode configuration and reject incompatible thresholds or TEST settings."""
     path = Path(path).resolve()
     text = path.read_text()
     try:
@@ -51,6 +52,7 @@ def load_config(path):
 
 
 def path(c, key):
+    """Resolve a storage base and add the mode subdirectory for generated products."""
     env = {'data': 'DATA_ROOT', 'results': 'RESULTS_ROOT', 'reports': 'REPORTS_ROOT',
            'figures': 'FIGURES_ROOT'}[key]
     p = Path(os.environ.get(env, c['paths'][key]))
@@ -62,6 +64,7 @@ def path(c, key):
 
 
 def digest(p, algorithm='sha256'):
+    """Hash a file in chunks so large sequence inputs need not fit in memory."""
     h = hashlib.new(algorithm)
     with open(p, 'rb') as f:
         for chunk in iter(lambda: f.read(1 << 20), b''):
@@ -70,6 +73,7 @@ def digest(p, algorithm='sha256'):
 
 
 def atomic_text(p, text):
+    """Write a temporary sibling and rename it so incomplete content is not published."""
     p = Path(p)
     p.parent.mkdir(parents=True, exist_ok=True)
     tmp = p.with_name(p.name + '.part')
@@ -87,6 +91,7 @@ def read_json(p):
 
 
 def table(p, rows, columns=None):
+    """Write a TSV atomically, preserving blank values and explicit column order."""
     rows = list(rows)
     columns = columns or (list(rows[0]) if rows else None)
     if not columns:
@@ -103,11 +108,13 @@ def table(p, rows, columns=None):
 
 
 def rows(p):
+    """Read a tab-delimited table into dictionaries keyed by its header."""
     with open(p, newline='') as f:
         return list(csv.DictReader(f, delimiter='\t'))
 
 
 def rel(p):
+    """Use a project-relative path when possible; preserve external paths explicitly."""
     p = Path(p).resolve()
     return str(p.relative_to(ROOT)) if p.is_relative_to(ROOT) else str(p)
 
@@ -119,6 +126,7 @@ def git_hash():
 
 
 def code_checksums():
+    """Hash the executable workflow files used for stage provenance."""
     files = sorted((ROOT / 'src').rglob('*.py')) + sorted((ROOT / 'scripts').rglob('*.py'))
     files += sorted((ROOT / 'scripts').rglob('*.R')) + [ROOT / 'Snakefile']
     files += sorted((ROOT / 'workflow').rglob('*.smk'))
@@ -126,6 +134,7 @@ def code_checksums():
 
 
 def record_stage(c, stage, status, details, outputs=(), inputs=()):
+    """Record stage status, input and output hashes, configuration, and software context."""
     dest = path(c, 'reports') / 'provenance' / f'{stage}.json'
     obj = {'stage': stage, 'status': status, 'timestamp_utc': now(), 'mode': c['mode'],
            'details': details, 'git_commit': git_hash(), 'config': c,
@@ -153,6 +162,7 @@ def version(command):
 
 
 def software(c):
+    """Record tool versions from the current environment and successful stage receipts."""
     out = path(c, 'reports') / 'provenance' / 'software_versions.tsv'
     versions={
         'python': sys.version, 'platform': platform.platform(), 'mafft': version(['mafft','--version']),
@@ -168,6 +178,7 @@ def software(c):
 
 
 def audit(c):
+    """Verify recorded inputs, outputs and implementation hashes against the current files."""
     problems = []
     checked = 0
     for p in sorted((path(c, 'reports') / 'provenance').glob('*.json')):

@@ -8,10 +8,12 @@ from .core import fasta,features,load_genes,coding_sequence,load_orthology,open_
 
 
 def source_path(c,name):
+    """Locate an input relative to the raw-data directory using the configured data root."""
     return path(c,'data')/'raw'/name
 
 
 def inspect(c):
+    """Inventory available input files and preview schemas without guessing identifier mappings."""
     inventory=[]
     for base in ['raw','external']:
         for p in sorted((path(c,'data')/base).rglob('*')):
@@ -44,6 +46,7 @@ def inspect(c):
 
 
 def build_manifest(c):
+    """Validate the explicit isolate-to-file mapping, including marked missing repeat data."""
     src=ROOT/c['samples'];data=rows(src)
     fields={'isolate','haplotype','assembly_role','fasta','gff','repeats'}
     if not data or not fields.issubset(data[0]):
@@ -71,6 +74,7 @@ def build_manifest(c):
 
 
 def n50(lengths):
+    """Return the contig length at which sorted contigs cover half the assembly bases."""
     running=0;total=sum(lengths)
     for length in sorted(lengths,reverse=True):
         running+=length
@@ -79,6 +83,7 @@ def n50(lengths):
 
 
 def validate(c):
+    """Check assembly and annotation compatibility, retaining gene model failure reasons."""
     manifest=rows(path(c,'results')/'qc/isolate_manifest.tsv')
     validation=[];summaries=[];errors=[]
     for sample in manifest:
@@ -118,6 +123,7 @@ def validate(c):
 
 
 def normalize_orthology(c,manifest):
+    """Normalize gene-level memberships and verify every assigned ID against its annotation."""
     opts=c['orthology'];p=source_path(c,opts['file'])
     data=rows(p)
     if not data:raise ValueError('Empty orthogroup membership table')
@@ -168,6 +174,7 @@ def normalize_orthology(c,manifest):
 
 
 def core_groups(c):
+    """Filter gene memberships by all-isolate copy count and CDS quality; record attrition."""
     manifest=rows(path(c,'results')/'qc/isolate_manifest.tsv')
     out,normalized=normalize_orthology(c,manifest)
     isolates=[r['isolate'] for r in manifest]

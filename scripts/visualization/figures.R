@@ -1,4 +1,6 @@
 #!/usr/bin/env Rscript
+# Reproduce PNG/PDF plots from locus tables and the recorded thresholds.
+# Figure 1 omits class E for readability; Figure 2 retains those loci.
 args <- commandArgs(trailingOnly=TRUE)
 if(length(args)!=4)stop('Usage: figures.R MASTER_TSV STATISTICS_DIR FIGURES_DIR WINDOW_CONFIG')
 suppressPackageStartupMessages({library(readr);library(dplyr);library(tidyr);library(ggplot2);library(jsonlite)})

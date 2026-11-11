@@ -1,3 +1,8 @@
+"""Build the pilot manifest and strict gene-level memberships for Zenodo record 17977529.
+
+Run after extracting the verified assemblies and GFF3 files. The raw membership table
+is preserved. This script writes derived TSVs and a separate pilot configuration.
+"""
 import csv
 import sys
 from collections import defaultdict
@@ -63,6 +68,7 @@ with (data / "raw/Pe_orthogroups.tsv").open(newline="") as handle:
                 agreed[s] = pair[0]
         groups[group] = agreed
 
+# Check reuse against all rows, including rows that fail the all-isolate filter.
 memberships, audit = [], []
 for group, agreed in groups.items():
     reused = [s for s, gene in agreed.items() if len(assignments[s, gene]) > 1]

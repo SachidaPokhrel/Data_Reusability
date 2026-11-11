@@ -13,6 +13,7 @@ from .common import ROOT, path, rows, table, read_json, write_json, digest, now
 
 
 def get_json(url, attempts=3, timeout=30):
+    """Read a JSON response with bounded retries; callers check the returned record identity."""
     for attempt in range(attempts):
         try:
             req = urllib.request.Request(url, headers={'User-Agent':'Pe-effusa-reuse/0.2'})
@@ -25,6 +26,7 @@ def get_json(url, attempts=3, timeout=30):
 
 
 def manifest(c):
+    """Resolve the pinned Zenodo record into expected source URLs, sizes, and checksums."""
     sources = read_json(ROOT/'config/sources.yaml')
     record = get_json(sources['zenodo_api'])
     if str(record.get('id')) != sources['record_id']:
@@ -100,6 +102,7 @@ def download_one(url, dest, checksum, expected_size, attempts=3):
 
 
 def download(c):
+    """Fetch the manifest files into the local data cache, preserving transfer receipts."""
     source=path(c,'data')/'metadata/download_manifest.tsv'
     data=rows(source)
     for row in data:
@@ -112,6 +115,7 @@ def download(c):
 
 
 def verify(c):
+    """Independently check local file sizes and hashes before allowing archive extraction."""
     data=rows(path(c,'data')/'metadata/download_manifest.tsv')
     for row in data:
         p=Path(row['local_path']);algorithm,expected=row['checksum'].split(':',1)
@@ -124,6 +128,7 @@ def verify(c):
 
 
 def safe_extract(archive, destination):
+    """Validate ZIP member paths and reject symlinks before writing extracted files."""
     destination=Path(destination).resolve()
     destination.mkdir(parents=True,exist_ok=True)
     listing=[]
@@ -142,6 +147,7 @@ def safe_extract(archive, destination):
 
 
 def extract(c):
+    """Expand verified ZIPs under data/external and write an archive member inventory."""
     inventory=[]
     for row in rows(path(c,'data')/'metadata/verified_files.tsv'):
         p=Path(row['local_path'])

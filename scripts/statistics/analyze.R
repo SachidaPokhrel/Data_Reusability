@@ -8,6 +8,8 @@ master <- read_tsv(args[1], show_col_types=FALSE, na=c('', 'NA'))
 sens <- read_tsv(args[2], show_col_types=FALSE)
 out <- args[3];dir.create(out,recursive=TRUE,showWarnings=FALSE)
 set.seed(2026)
+# Use A+B for the conditional fraction. Bounds count unresolved coding-conserved
+# loci as all non-hits or all hits; those bounds are not confidence intervals.
 summary <- master %>% group_by(window) %>% summarise(
   sampled_loci=n(), unresolved=sum(candidate_status=='E'),
   coding_conserved=sum(coding_conserved_independent==1),

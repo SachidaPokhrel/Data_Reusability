@@ -9,6 +9,7 @@ from .common import ROOT,path,rows,table,read_json,write_json,atomic_text,softwa
 
 
 def statistics(c):
+    """Run R locus-level summaries, or the explicitly synthetic fallback if R is unavailable."""
     out=path(c,'results')/'statistics';out.mkdir(parents=True,exist_ok=True)
     master=path(c,'results')/'candidates/master_locus_table.tsv'
     if c['mode']=='test' and not shutil.which('Rscript'):
@@ -31,6 +32,7 @@ def statistics(c):
 
 
 def figures(c):
+    """Render the main R figures from measured tables and prespecified thresholds."""
     directory=path(c,'figures')
     if c['mode']=='test' and not shutil.which('Rscript'):
         return [write_json(directory/'figure_status.json',{'status':'skipped_R_unavailable',
@@ -42,6 +44,7 @@ def figures(c):
 
 
 def extra_figures(c):
+    """Plot isolate-level differences and nominated screen hits without implying validation."""
     if c['mode']=='test':
         try:import matplotlib
         except ImportError:
@@ -134,6 +137,7 @@ def extra_figures(c):
 
 
 def report(c):
+    """Write the pilot report and record the gate decision without starting full mode."""
     out=path(c,'results');reports=path(c,'reports');figs=path(c,'figures')
     selection=read_json(out/'orthogroups/selection.json');master=rows(out/'candidates/master_locus_table.tsv')
     stats=rows(out/'statistics/prevalence.tsv');evidence=rows(out/'synteny/locus_evidence.tsv')

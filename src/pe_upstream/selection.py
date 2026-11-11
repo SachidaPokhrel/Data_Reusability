@@ -8,6 +8,7 @@ from .core import fasta,load_genes,coding_sequence,gene_index,synteny_signatures
 
 
 def distance_matrix(c,isolates):
+    """Build a complete isolate-distance table from the configured genotype or TSV input."""
     p=Path(c['distances']) if c.get('distances') else path(c,'data')/'raw/Pe_variant_matrix.phy'
     p=p if p.is_absolute() else ROOT/p
     distances={}
@@ -39,6 +40,7 @@ def distance_matrix(c,isolates):
 
 
 def farthest_isolates(isolates,distances,n):
+    """Seed with the most distant pair and repeatedly maximize distance to the nearest selected isolate."""
     if n>len(isolates):raise ValueError('Requested too many isolates')
     if n==len(isolates):return sorted(isolates)
     pairs=sorted(itertools.combinations(sorted(isolates),2))
@@ -52,6 +54,7 @@ def farthest_isolates(isolates,distances,n):
 
 
 def select(c):
+    """Apply CDS and synteny checks, then sample loci before examining upstream variation."""
     out=path(c,'results');manifest=rows(out/'qc/isolate_manifest.tsv')
     isolates=[r['isolate'] for r in manifest]
     if c['mode']=='full':

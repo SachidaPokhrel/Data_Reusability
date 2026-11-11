@@ -5,6 +5,7 @@ from .core import open_text,fasta,revcomp
 
 
 def load_gfa(filename):
+    """Load sequence-bearing GFA segments and explicit assembly paths for optional review."""
     segments={};paths={}
     with open_text(filename) as f:
         for line in f:
@@ -26,6 +27,7 @@ def load_gfa(filename):
 
 
 def validate(c):
+    """Verify candidate coordinates only after a graph path matches its assembly contig."""
     options=c.get('graph',{})
     if not options.get('enabled'):raise ValueError('Enable graph validation only after supplying an explicit graph-path mapping')
     mapping=rows(ROOT/options['path_mapping']);segments,paths=load_gfa(ROOT/options['file'])

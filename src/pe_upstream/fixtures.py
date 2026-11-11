@@ -6,6 +6,7 @@ from .core import write_fasta,revcomp
 
 
 def create(c):
+    """Generate deterministic TEST inputs with known variation and extraction failures."""
     if c['mode']!='test':raise ValueError('Fixture generation is TEST-only')
     root=ROOT/'tests/work';root.mkdir(parents=True,exist_ok=True)
     rng=random.Random(2026);base={}

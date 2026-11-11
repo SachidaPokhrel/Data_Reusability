@@ -14,6 +14,7 @@ def open_text(path):
     return gzip.open(path, 'rt') if str(path).endswith('.gz') else open(path)
 
 def fasta(path):
+    """Read FASTA records into a mapping keyed by the first token of each header."""
     result = {}
     name, parts = None, []
     with open_text(path) as handle:
@@ -38,6 +39,7 @@ def fasta(path):
     return result
 
 def write_fasta(path, sequences):
+    """Write sequence records in mapping order using wrapped FASTA lines."""
     with open(path, 'w') as handle:
         for name, seq in sequences.items():
             handle.write(f'>{name}\n')
@@ -45,6 +47,7 @@ def write_fasta(path, sequences):
                 handle.write(seq[i:i+80] + '\n')
 
 def revcomp(seq):
+    """Reverse-complement a nucleotide string, preserving supported ambiguity codes."""
     return seq.translate(str.maketrans('ACGTRYMKBDHVNacgtrymkbdhvn',
                                      'TGCAYRKMVHDBNtgcayrkmvhdbn'))[::-1]
 
@@ -60,6 +63,7 @@ class Feature:
 
 
 def features(path):
+    """Read GFF features as zero-based, half-open intervals and decode GFF3 attributes."""
     with open_text(path) as handle:
         for line in handle:
             if line.startswith('##FASTA'):
@@ -91,6 +95,7 @@ class Gene:
 
 
 def load_genes(path):
+    """Build gene models and choose the longest CDS transcript, breaking ties by ID."""
     rows = list(features(path))
     genes, tx_to_gene, segments = {}, {}, defaultdict(list)
     for f in rows:
@@ -126,6 +131,7 @@ def load_genes(path):
 
 
 def coding_sequence(gene, genome):
+    """Join strand-oriented CDS segments and check phase, frame, and internal stops."""
     if not gene.cds or gene.strand not in ('+', '-'):
         raise ValueError('missing_cds_or_strand')
     ordered = sorted(gene.cds, key=lambda x: x.start, reverse=gene.strand == '-')
@@ -192,6 +198,7 @@ class IntervalIndex:
 
 
 def gene_index(genes):
+    """Index annotated gene intervals for overlap checks during upstream extraction."""
     intervals = defaultdict(list)
     for g in genes.values():
         intervals[g.chrom].append((g.start, g.end))
@@ -211,6 +218,7 @@ def load_repeats(path):
 
 
 def upstream(gene, genome, window, other_genes):
+    """Extract a transcription-oriented window outside the gene and reject invalid bounds."""
     if gene.strand == '+':
         start, end = gene.start-window, gene.start
     elif gene.strand == '-':
@@ -252,6 +260,7 @@ def synteny_signatures(genes, gene_to_og):
 
 
 def pair_metrics(a, b):
+    """Measure identity on callable bases and keep alignment coverage and gaps separate."""
     if len(a) != len(b):
         raise ValueError('Alignment rows have unequal length')
     callable_sites = mismatches = gap_bases = comparable = 0
@@ -289,6 +298,7 @@ def write_tsv(path, rows, fields):
 
 
 def load_orthology(path, isolates):
+    """Keep orthogroups with exactly one assigned gene in every requested isolate."""
     by_og = defaultdict(lambda: defaultdict(list))
     seen = set()
     for row in read_tsv(path):

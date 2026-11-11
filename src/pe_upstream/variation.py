@@ -11,6 +11,7 @@ PROTEIN=frozenset('ACDEFGHIKLMNPQRSTVWY')
 
 
 def metrics(a,b,large_indel=50,alphabet=DNA):
+    """Compute callable identity, substitutions and gap events using separate denominators."""
     if len(a)!=len(b):raise ValueError('Unequal aligned lengths')
     callable_sites=mismatch=gap_bp=events=large=0;run=0;direction=None
     for x,y in list(zip(a,b))+[('?', '?')]:
@@ -42,6 +43,7 @@ def metrics(a,b,large_indel=50,alphabet=DNA):
 
 
 def alignment_summary(aligned,alphabet=DNA):
+    """Summarize alignment length, variable sites, gaps and ambiguous bases."""
     seqs=list(aligned.values());length=len(seqs[0])
     return {'alignment_length':length,'variable_sites':sum(len({s[i] for s in seqs if s[i] in alphabet})>1
             for i in range(length)),
@@ -52,6 +54,7 @@ def alignment_summary(aligned,alphabet=DNA):
 
 
 def calculate(c):
+    """Record pairwise distances and callability before any locus-level classification."""
     out=path(c,'results');selection=read_json(out/'orthogroups/selection.json')
     statuses={}
     for kind in ['cds','upstream']:
@@ -95,6 +98,7 @@ def calculate(c):
 
 
 def classify(c):
+    """Compare CDS and upstream metrics on matching isolate pairs and retain unresolved loci."""
     out=path(c,'results');selection=read_json(out/'orthogroups/selection.json')
     coords=rows(out/'upstream/upstream_coordinates.tsv');repeat=rows(out/'repeats/upstream_repeats.tsv')
     by_coord=defaultdict(list);by_rep=defaultdict(list)

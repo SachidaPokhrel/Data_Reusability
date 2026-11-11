@@ -7,6 +7,7 @@ from .sequences import file_id
 
 
 def gap_blocks(a,b,min_size):
+    """Find long contiguous gap runs opposite callable DNA in an aligned pair."""
     blocks=[];start=None;direction=None
     for i,(x,y) in enumerate(list(zip(a,b))+[('?', '?')]):
         d='a_gap' if x=='-' and y in DNA else 'b_gap' if y=='-' and x in DNA else None
@@ -18,6 +19,7 @@ def gap_blocks(a,b,min_size):
 
 
 def flank_identity(a,b,start,end,flank=30):
+    """Check callable identity on both sides of a putative gap event."""
     if start<flank or end+flank>len(a):return None
     values=[]
     for lo,hi in [(start-flank,start),(end,end+flank)]:
@@ -28,6 +30,7 @@ def flank_identity(a,b,start,end,flank=30):
 
 
 def validate(c):
+    """Record local synteny and gap evidence without assigning insertion direction or cause."""
     out=path(c,'results');selection=read_json(out/'orthogroups/selection.json')
     manifest={r['isolate']:r for r in rows(out/'qc/isolate_manifest.tsv')}
     # Evidence for all selected loci is retained even when not nominated for detailed review.

@@ -28,7 +28,7 @@ No full 19-isolate sequence comparison was run. The unresolved counts exceeded t
 - [Pilot tables](results/pilot/): published summaries, the locus-level screen, pairwise comparisons and validation tables.
 - [Original figures](figures/pilot/): PNG and PDF plots from the HPC pilot. The fixed-window candidate figure shows the original screen; use the anchored figure above for the validated interpretation.
 - [Publication records](publication/): verified source file hashes, assembly/annotation hashes, software versions and the pilot gate outcome.
-- [Code](src/pe_upstream/), [configurations](config/), [workflow](Snakefile), [environments](envs/) and [tests](tests/): analysis and replay instructions.
+- [Code guide](docs/code_guide.md), [source](src/pe_upstream/), [configurations](config/), [workflow](Snakefile), [environments](envs/) and [tests](tests/): analysis and replay instructions.
 
 The copy in `Week_12` retains local HPC outputs. Git excludes downloaded and extracted inputs, large intermediates, environments, original machine-specific receipts and logs. No source assembly FASTA, archive, or annotation file is shipped in the Git snapshot.
 

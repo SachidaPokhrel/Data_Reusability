@@ -94,6 +94,7 @@ def stage_inputs(c,stage):
 
 
 def execute(c,stage):
+    """Run one stage and record completion or failure with the actual dependency hashes."""
     inputs=stage_inputs(c,stage)
     record_stage(c,stage,'running','Stage started',inputs=inputs)
     try:
@@ -111,6 +112,7 @@ def execute(c,stage):
 
 
 def preflight(c,executor='local'):
+    """Record local tool and scheduler availability without submitting a job."""
     info={'timestamp_utc':now(),'os':platform.platform(),'architecture':platform.machine(),
         'cpu_count':os.cpu_count(),'disk_free_bytes':shutil.disk_usage(ROOT).free,
         'executor':executor,'network_assumption':'API/download stages need internet; compute stages use staged files',
@@ -126,6 +128,7 @@ def preflight(c,executor='local'):
 
 
 def run_test(c):
+    """Exercise the same stage functions on synthetic inputs isolated from biological data."""
     if c['mode']!='test':raise ValueError('Test runner requires config/test.yaml')
     for action in ['test_fixtures','inspect_schemas','build_isolate_manifest','validate_annotations',
         'select_single_copy_core_genes','select_pilot_subset','extract_CDS','extract_upstream',
@@ -136,6 +139,7 @@ def run_test(c):
 
 
 def provenance(c):
+    """Aggregate per-stage receipts and input hashes into a run manifest."""
     reports=path(c,'reports');records=[]
     for p in sorted((reports/'provenance').glob('*.json')):
         obj=read_json(p)
@@ -152,6 +156,7 @@ def provenance(c):
 
 
 def main():
+    """Dispatch CLI commands against one validated project configuration."""
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--config',default='config/pilot.yaml')
     sub=p.add_subparsers(dest='command',required=True)

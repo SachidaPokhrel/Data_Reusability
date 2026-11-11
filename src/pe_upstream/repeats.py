@@ -5,6 +5,7 @@ from .core import features,IntervalIndex,fasta
 
 
 def repeat_records(filename,te_classes):
+    """Read repeat intervals; only recognized source classifications count as TE classes."""
     records=[]
     for f in features(filename):
         classification=next((f.attrs[k] for k in ['Classification','classification','Class','class','repeat_class'] if k in f.attrs),'unknown')
@@ -18,6 +19,7 @@ def repeat_records(filename,te_classes):
 
 
 def indices(records,te_only=False):
+    """Merge overlapping repeat intervals to avoid double counting bases."""
     intervals=defaultdict(list)
     for r in records:
         if not te_only or r['is_TE']:intervals[r['chrom']].append((r['start'],r['end']))
@@ -25,6 +27,7 @@ def indices(records,te_only=False):
 
 
 def analyze(c):
+    """Summarize repeat overlap, proximity and density for each measured upstream interval."""
     out=path(c,'results');manifest={r['isolate']:r for r in rows(out/'qc/isolate_manifest.tsv')}
     coord=rows(out/'upstream/upstream_coordinates.tsv');by_iso=defaultdict(list)
     for r in coord:by_iso[r['isolate']].append(r)

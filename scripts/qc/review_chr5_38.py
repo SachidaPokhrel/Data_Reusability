@@ -61,6 +61,8 @@ def main():
     columns, projections = {}, []
     for isolate, seq in aligned.items():
         r = windows[isolate]
+        # The minus-strand interval is reversed: its first base is next to the neighbor.
+        # Convert genomic boundaries to offsets before looking up gapped columns.
         boundary = int(r['gene_end']) + int(r['upstream_gene_distance'])
         start, end = boundary - int(r['end']), boundary - int(r['start'])
         available = [i for i, base in enumerate(seq, 1) if base != '-']

@@ -14,15 +14,18 @@ AA=dict(zip(CODONS,'FFLLSSSSYY**CC*WLLLLPPPPHHQQRRRRIIIMTTTTNNKKSSRRVVVVAAAADDEE
 
 
 def translate(seq):
+    """Translate the representative CDS with the standard genetic code for protein comparison."""
     protein=''.join(AA.get(seq[i:i+3],'X') for i in range(0,len(seq),3))
     return protein[:-1] if protein.endswith('*') else protein
 
 
 def file_id(og):
+    """Derive a stable, filename-safe identifier from an orthogroup ID."""
     return hashlib.sha256(og.encode()).hexdigest()[:20]
 
 
 def selected_data(c):
+    """Load the pilot selection, selected genes and validated isolate paths."""
     out=path(c,'results');selection=read_json(out/'orthogroups/selection.json')
     selected=rows(out/'orthogroups/selected_genes.tsv')
     manifest={r['isolate']:r for r in rows(out/'qc/isolate_manifest.tsv')}
@@ -30,6 +33,7 @@ def selected_data(c):
 
 
 def cds(c):
+    """Extract the selected CDS and translated protein sequences for separate alignments."""
     selection,selected,manifest=selected_data(c)
     by_iso=defaultdict(list)
     for r in selected:by_iso[r['isolate']].append(r)
@@ -83,6 +87,7 @@ def extract_one(g,genome,models,window):
 
 
 def upstream(c):
+    """Write strand-aware upstream sequences and record each extraction failure."""
     selection,selected,manifest=selected_data(c)
     by_iso=defaultdict(list)
     for r in selected:by_iso[r['isolate']].append(r)
@@ -115,6 +120,7 @@ def upstream(c):
 
 
 def run_alignment(source,dest,c,protein=False):
+    """Run MAFFT or the TEST-only stub and check that alignment preserves input sequences."""
     original=fasta(source)
     if c['test_stub_alignment']:
         # This deliberately simple TEST-only padder is not a biological aligner.
@@ -136,6 +142,7 @@ def run_alignment(source,dest,c,protein=False):
 
 
 def align(c,kind):
+    """Align each eligible locus/region and retain unresolved extraction statuses."""
     selection=read_json(path(c,'results')/'orthogroups/selection.json');out=path(c,'results')
     directory=out/kind/'alignments';directory.mkdir(parents=True,exist_ok=True)
     cache=out/kind/'intermediate/alignment_cache';cache.mkdir(parents=True,exist_ok=True)
